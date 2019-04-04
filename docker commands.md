@@ -134,6 +134,11 @@ sudo sh get-docker.sh [--mirror Aliyun]
 	```
     - 不推荐使用commit生成镜像，因为黑箱操作，不能还原过程。应使用Dockerfile生层镜像
 
+- 推送到远端仓库
+```bash
+docker login
+docker tag <image> <dockerhub id
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDExNzQ0M119
+eyJoaXN0b3J5IjpbLTIxNjcwMTA0LDE4NjQxMTc0NDNdfQ==
 -->
