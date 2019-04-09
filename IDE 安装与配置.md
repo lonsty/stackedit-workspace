@@ -58,9 +58,9 @@ sudo apt-get install oracle-java8-installer
 sudo update-alternatives --config java
 ```
 - Setting the JAVA_HOME Environment Variable
-sudo nano /etc/environment
-```
-
+```bash
+sudo bash -c "echo -e '\nJAVA_HOME="/usr/lib/jvm/java-8-oracle"' >> /etc/environment"
+source /etc/environment
 ```
 # visual studio code
 
@@ -69,7 +69,7 @@ sudo nano /etc/environment
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDM2MzU3MywxNDgzMDk2NDQsNTk1Mj
-E1NTcxLDc0OTgyMDI5LDQ2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
-
+eyJoaXN0b3J5IjpbLTQ0NDY4Nzg4MSwtNTM0MzYzNTczLDE0OD
+MwOTY0NCw1OTUyMTU1NzEsNzQ5ODIwMjksNDY0NDM0NzMsLTIw
+ODg3NDY2MTJdfQ==
 -->
