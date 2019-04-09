@@ -114,9 +114,10 @@ sudo -H pip3 install virtualenv
 ```
 - 使用
 ```bash
-vir
+virtualenv --no-site-packages -p python3 venv
+source /venv/bin/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzMyMjA4MywtMTk3NDkwMzI0MywxNj
+eyJoaXN0b3J5IjpbLTM0ODgyODc3OCwtMTk3NDkwMzI0MywxNj
 A2MTM2ODQwLC0xNDg3OTgwNTUzLC00NDQ2ODc4ODEsLTE2MTkz
 Mjc4MDcsLTUzNDM2MzU3MywxNDgzMDk2NDQsNTk1MjE1NTcxLD
 c0OTgyMDI5LDQ2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
