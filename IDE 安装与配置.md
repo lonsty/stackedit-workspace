@@ -47,6 +47,7 @@
 # eclipse
 
 - need JRE
+- sudo apt-get update
 
 # visual studio code
 
@@ -55,6 +56,6 @@
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MjE1NTcxLDc0OTgyMDI5LDQ2NDQzND
-czLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4Mj
+AyOSw0NjQ0MzQ3MywtMjA4ODc0NjYxMl19
 -->
