@@ -59,7 +59,7 @@ sudo update-alternatives --config java
 ```
 - Setting the JAVA_HOME Environment Variable
 ```bash
-sudo bash -c "echo -e '\nJAVA_HOME="/usr/lib/jvm/java-8-oracle"' >> /etc/environment"
+sudo bash -c "echo -e '\nJAVA_HOME="</usr/lib/jvm/java-8-oracle>"' >> /etc/environment"
 source /etc/environment
 ```
 # visual studio code
@@ -69,7 +69,7 @@ source /etc/environment
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDY4Nzg4MSwtNTM0MzYzNTczLDE0OD
-MwOTY0NCw1OTUyMTU1NzEsNzQ5ODIwMjksNDY0NDM0NzMsLTIw
-ODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2MTkzMjc4MDcsLTUzNDM2MzU3MywxND
+gzMDk2NDQsNTk1MjE1NTcxLDc0OTgyMDI5LDQ2NDQzNDczLC0y
+MDg4NzQ2NjEyXX0=
 -->
