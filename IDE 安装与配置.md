@@ -49,6 +49,7 @@
 # eclipse
 
 [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
+
 [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
 
 - Oracle JDK
@@ -141,9 +142,9 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ0Nzc3NzksLTIxMDIzODMzNDIsLT
-M0ODgyODc3OCwtMTk3NDkwMzI0MywxNjA2MTM2ODQwLC0xNDg3
-OTgwNTUzLC00NDQ2ODc4ODEsLTE2MTkzMjc4MDcsLTUzNDM2Mz
-U3MywxNDgzMDk2NDQsNTk1MjE1NTcxLDc0OTgyMDI5LDQ2NDQz
-NDczLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTU1NDIwODM1NywtMjEwMjM4MzM0MiwtMz
+Q4ODI4Nzc4LC0xOTc0OTAzMjQzLDE2MDYxMzY4NDAsLTE0ODc5
+ODA1NTMsLTQ0NDY4Nzg4MSwtMTYxOTMyNzgwNywtNTM0MzYzNT
+czLDE0ODMwOTY0NCw1OTUyMTU1NzEsNzQ5ODIwMjksNDY0NDM0
+NzMsLTIwODg3NDY2MTJdfQ==
 -->
