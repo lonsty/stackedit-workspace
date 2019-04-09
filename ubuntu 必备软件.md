@@ -134,7 +134,9 @@ sudo apt-get remove --purge libreoffice*
 ```bash
 sudo dpkg -i *.deb
 ```
--
+- **设置中文界面**
+- 打开任一组件
+- tool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxOTIxODE0LDEwMTgyNjIzNzNdfQ==
+eyJoaXN0b3J5IjpbLTExNDQ4OTEzNjgsMTAxODI2MjM3M119
 -->
