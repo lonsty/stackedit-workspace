@@ -102,9 +102,15 @@ if __name__ == '__main__':
     # sys.exit(main())
     sys.exit(__main__._main())
 ```
+- 安装jupyter
+```bash
+sudo -H pip3 install jupyter
+```
+
+# vatual
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM0NDk3MTcsLTE5NzQ5MDMyNDMsMT
-YwNjEzNjg0MCwtMTQ4Nzk4MDU1MywtNDQ0Njg3ODgxLC0xNjE5
-MzI3ODA3LC01MzQzNjM1NzMsMTQ4MzA5NjQ0LDU5NTIxNTU3MS
-w3NDk4MjAyOSw0NjQ0MzQ3MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbODgxNjgxNDczLC0xOTc0OTAzMjQzLDE2MD
+YxMzY4NDAsLTE0ODc5ODA1NTMsLTQ0NDY4Nzg4MSwtMTYxOTMy
+NzgwNywtNTM0MzYzNTczLDE0ODMwOTY0NCw1OTUyMTU1NzEsNz
+Q5ODIwMjksNDY0NDM0NzMsLTIwODg3NDY2MTJdfQ==
 -->
