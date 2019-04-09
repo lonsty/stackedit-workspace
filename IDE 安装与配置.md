@@ -106,6 +106,16 @@ if __name__ == '__main__':
 ```bash
 sudo -H pip3 install jupyter
 ```
+- 配置jupyter
+```
+ipython
+
+from notebook,auth import passwd
+passwd()
+```
+```
+jupyter notebook --generate-config
+```
 
 # virtualenv
 - 安装
@@ -120,9 +130,9 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDIzODMzNDIsLTM0ODgyODc3OCwtMT
-k3NDkwMzI0MywxNjA2MTM2ODQwLC0xNDg3OTgwNTUzLC00NDQ2
-ODc4ODEsLTE2MTkzMjc4MDcsLTUzNDM2MzU3MywxNDgzMDk2ND
-QsNTk1MjE1NTcxLDc0OTgyMDI5LDQ2NDQzNDczLC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMjAwODAyNjI4MSwtMjEwMjM4MzM0MiwtMz
+Q4ODI4Nzc4LC0xOTc0OTAzMjQzLDE2MDYxMzY4NDAsLTE0ODc5
+ODA1NTMsLTQ0NDY4Nzg4MSwtMTYxOTMyNzgwNywtNTM0MzYzNT
+czLDE0ODMwOTY0NCw1OTUyMTU1NzEsNzQ5ODIwMjksNDY0NDM0
+NzMsLTIwODg3NDY2MTJdfQ==
 -->
