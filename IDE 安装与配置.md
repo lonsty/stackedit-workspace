@@ -116,9 +116,10 @@ passwd()
 ```
 jupyter notebook --generate-config
 ```
-```
+```bash
 vim .jupyter/jupyter_notebook_config.py
-
+```
+```py
 c.NotebookApp.ip='0.0.0.0'
 c.NotebookApp.password = u'sha1:17e055146f93:1450e0a31f8971387b3ca4dd82a19ee1f0c1ec59'
 c.NotebookApp.open_browser = False
@@ -139,7 +140,7 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MzA2NTgxLC0yMTAyMzgzMzQyLC0zND
+eyJoaXN0b3J5IjpbNjQ5NzAyMTM2LC0yMTAyMzgzMzQyLC0zND
 g4Mjg3NzgsLTE5NzQ5MDMyNDMsMTYwNjEzNjg0MCwtMTQ4Nzk4
 MDU1MywtNDQ0Njg3ODgxLC0xNjE5MzI3ODA3LC01MzQzNjM1Nz
 MsMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4MjAyOSw0NjQ0MzQ3
