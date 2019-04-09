@@ -1,4 +1,5 @@
 # intellij IDEA
+[https://www.jetbrains.com/idea/download/#section=linux](https://www.jetbrains.com/idea/download/#section=linux)
 
   Linux Installation Instructions
   ------------------------------------------------------------------------------
@@ -46,6 +47,8 @@
 
 # eclipse
 
+[https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
+
 - Oracle JDK
 ```bash
 sudo add-apt-repository ppa:webupd8team/java
@@ -64,12 +67,14 @@ source /etc/environment
 ```
 # visual studio code
 
-- [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+
 ```bash
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc5ODA1NTMsLTQ0NDY4Nzg4MSwtMT
-YxOTMyNzgwNywtNTM0MzYzNTczLDE0ODMwOTY0NCw1OTUyMTU1
-NzEsNzQ5ODIwMjksNDY0NDM0NzMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTM1MzE4NDA3NCwtMTQ4Nzk4MDU1MywtND
+Q0Njg3ODgxLC0xNjE5MzI3ODA3LC01MzQzNjM1NzMsMTQ4MzA5
+NjQ0LDU5NTIxNTU3MSw3NDk4MjAyOSw0NjQ0MzQ3MywtMjA4OD
+c0NjYxMl19
 -->
