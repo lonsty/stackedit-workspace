@@ -134,6 +134,7 @@ sudo apt-get remove --purge libreoffice*
 ```bash
 sudo dpkg -i *.deb
 ```
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODQ0NjEwOSwxMDE4MjYyMzczXX0=
+eyJoaXN0b3J5IjpbNDcxOTIxODE0LDEwMTgyNjIzNzNdfQ==
 -->
