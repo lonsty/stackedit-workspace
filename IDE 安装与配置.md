@@ -73,9 +73,18 @@ source /etc/environment
 ```bash
 sudo dpkg -i *.deb
 ```
+
+# jupyter
+- 安装pip3
+```bash
+sudo apt install python3-pip
+```
+- 升级pip
+```bash
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjEzNjg0MCwtMTQ4Nzk4MDU1MywtND
-Q0Njg3ODgxLC0xNjE5MzI3ODA3LC01MzQzNjM1NzMsMTQ4MzA5
-NjQ0LDU5NTIxNTU3MSw3NDk4MjAyOSw0NjQ0MzQ3MywtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5NzQ5MDMyNDMsMTYwNjEzNjg0MCwtMT
+Q4Nzk4MDU1MywtNDQ0Njg3ODgxLC0xNjE5MzI3ODA3LC01MzQz
+NjM1NzMsMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4MjAyOSw0Nj
+Q0MzQ3MywtMjA4ODc0NjYxMl19
 -->
