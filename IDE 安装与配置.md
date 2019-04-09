@@ -107,10 +107,17 @@ if __name__ == '__main__':
 sudo -H pip3 install jupyter
 ```
 
-# vatual
+# virtualenv
+- 安装
+```bash
+sudo -H pip3 install virtualenv
+```
+- 使用
+```bash
+vir
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNjgxNDczLC0xOTc0OTAzMjQzLDE2MD
-YxMzY4NDAsLTE0ODc5ODA1NTMsLTQ0NDY4Nzg4MSwtMTYxOTMy
-NzgwNywtNTM0MzYzNTczLDE0ODMwOTY0NCw1OTUyMTU1NzEsNz
-Q5ODIwMjksNDY0NDM0NzMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTMzNzMyMjA4MywtMTk3NDkwMzI0MywxNj
+A2MTM2ODQwLC0xNDg3OTgwNTUzLC00NDQ2ODc4ODEsLTE2MTkz
+Mjc4MDcsLTUzNDM2MzU3MywxNDgzMDk2NDQsNTk1MjE1NTcxLD
+c0OTgyMDI5LDQ2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
 -->
