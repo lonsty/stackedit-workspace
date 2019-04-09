@@ -1,6 +1,7 @@
 # intellij IDEA
 
 # eclipse
+- need JRE
 
 # visual studio code
 - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
@@ -8,6 +9,6 @@
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQ1NTM5NDcsNDY0NDM0NzMsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNzQ5ODIwMjksNDY0NDM0NzMsLTIwODg3ND
+Y2MTJdfQ==
 -->
