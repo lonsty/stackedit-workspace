@@ -51,9 +51,12 @@
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 # Oracle JDK 8
+sudo apt-get install oracle-java8-installer
+```
+- Managing Java
+```bash
 
 ```
-
 # visual studio code
 
 - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
@@ -61,7 +64,7 @@ sudo apt-get update
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjgxNTY1NCwxNDgzMDk2NDQsNTk1Mj
+eyJoaXN0b3J5IjpbLTUzNzk4NDA1NywxNDgzMDk2NDQsNTk1Mj
 E1NTcxLDc0OTgyMDI5LDQ2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
 
 -->
