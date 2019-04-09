@@ -39,9 +39,11 @@
 
   3. Note that we recommend to store data cache ("system" directory) on a disk
      with at least 1GB of free space.
+     
 激活码
----------------------
+-----------------------------------------------
 [http://idea.lanyus.com/](http://idea.lanyus.com/)
+
 # eclipse
 
 - need JRE
@@ -53,6 +55,6 @@
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyNjk4NjQ1LDc0OTgyMDI5LDQ2NDQzND
+eyJoaXN0b3J5IjpbNTk1MjE1NTcxLDc0OTgyMDI5LDQ2NDQzND
 czLC0yMDg4NzQ2NjEyXX0=
 -->
