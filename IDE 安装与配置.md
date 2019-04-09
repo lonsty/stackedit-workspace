@@ -55,6 +55,11 @@ sudo apt-get install oracle-java8-installer
 ```
 - Managing Java
 ```bash
+sudo update-alternatives --config java
+```
+- Setting the JAVA_HOME Environment Variable
+sudo nano /etc/environment
+```
 
 ```
 # visual studio code
@@ -64,7 +69,7 @@ sudo apt-get install oracle-java8-installer
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzk4NDA1NywxNDgzMDk2NDQsNTk1Mj
+eyJoaXN0b3J5IjpbLTUzNDM2MzU3MywxNDgzMDk2NDQsNTk1Mj
 E1NTcxLDc0OTgyMDI5LDQ2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
 
 -->
