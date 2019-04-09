@@ -137,7 +137,6 @@ sudo dpkg -i *.deb
 - **设置中文界面**
 - 打开任一组件
 - ToolS > Opitons > Language settings > Languages 
-- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjM1Njc1NCwxMDE4MjYyMzczXX0=
+eyJoaXN0b3J5IjpbLTgwMjY3NzY0NSwxMDE4MjYyMzczXX0=
 -->
