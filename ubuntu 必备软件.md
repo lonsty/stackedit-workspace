@@ -121,17 +121,19 @@ Exec=/opt/sublime_text/sublime_text --command new_file
 #Exec=/usr/bin/subl --command new_file
 OnlyShowIn=Unity;
 ```
-libreoffice
+# libreoffice
 
 -   卸载原有版本
-
--   sudo apt-get remove --purge libreoffice*
-
+```bash
+sudo apt-get remove --purge libreoffice*
+```
 -   下载deb安装包（libreoffice和中文扩展）
 
 -   [https://zh-cn.libreoffice.org/download/libreoffice-still/?type=deb-x86_64&version=6.2.2&lang=zh-CN](https://zh-cn.libreoffice.org/download/libreoffice-still/?type=deb-x86_64&version=6.2.2&lang=zh-CN)
 -   所有deb包整合在一起
--   sudo dpkg -i *.deb
+```bash
+sudo dpkg -i *.deb
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTcwMjgyOCwxMDE4MjYyMzczXX0=
+eyJoaXN0b3J5IjpbLTcwODQ0NjEwOSwxMDE4MjYyMzczXX0=
 -->
