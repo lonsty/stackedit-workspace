@@ -46,8 +46,13 @@
 
 # eclipse
 
-- need JRE
-- sudo apt-get update
+- Oracle JDK
+```bash
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+# Oracle JDK 8
+
+```
 
 # visual studio code
 
@@ -56,6 +61,7 @@
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4Mj
-AyOSw0NjQ0MzQ3MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTYwMjgxNTY1NCwxNDgzMDk2NDQsNTk1Mj
+E1NTcxLDc0OTgyMDI5LDQ2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
+
 -->
