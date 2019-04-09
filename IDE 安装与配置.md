@@ -1,4 +1,5 @@
 # intellij IDEA
+
 [https://www.jetbrains.com/idea/download/#section=linux](https://www.jetbrains.com/idea/download/#section=linux)
 
   Linux Installation Instructions
@@ -73,7 +74,7 @@ source /etc/environment
 sudo dpkg -i *.deb
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzE4NDA3NCwtMTQ4Nzk4MDU1MywtND
+eyJoaXN0b3J5IjpbMTYwNjEzNjg0MCwtMTQ4Nzk4MDU1MywtND
 Q0Njg3ODgxLC0xNjE5MzI3ODA3LC01MzQzNjM1NzMsMTQ4MzA5
 NjQ0LDU5NTIxNTU3MSw3NDk4MjAyOSw0NjQ0MzQ3MywtMjA4OD
 c0NjYxMl19
