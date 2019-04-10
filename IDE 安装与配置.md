@@ -53,7 +53,7 @@
 [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
 
 ### ubuntu代理设置失效问题
-`去掉socks代理设置`
+`去掉socks代理设置，即可连接网络`
 
 - Oracle JDK
 ```bash
@@ -145,9 +145,9 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTA5ODY5MywtNTU0MjA4MzU3LC0yMT
-AyMzgzMzQyLC0zNDg4Mjg3NzgsLTE5NzQ5MDMyNDMsMTYwNjEz
-Njg0MCwtMTQ4Nzk4MDU1MywtNDQ0Njg3ODgxLC0xNjE5MzI3OD
-A3LC01MzQzNjM1NzMsMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4
-MjAyOSw0NjQ0MzQ3MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjk2OTk1OTg3LC01NTQyMDgzNTcsLTIxMD
+IzODMzNDIsLTM0ODgyODc3OCwtMTk3NDkwMzI0MywxNjA2MTM2
+ODQwLC0xNDg3OTgwNTUzLC00NDQ2ODc4ODEsLTE2MTkzMjc4MD
+csLTUzNDM2MzU3MywxNDgzMDk2NDQsNTk1MjE1NTcxLDc0OTgy
+MDI5LDQ2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
 -->
