@@ -52,6 +52,9 @@
 
 [https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/)
 
+### ubuntu代理设置失效问题
+`去掉socks代理设置`
+
 - Oracle JDK
 ```bash
 sudo add-apt-repository ppa:webupd8team/java
@@ -142,9 +145,9 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDIwODM1NywtMjEwMjM4MzM0MiwtMz
-Q4ODI4Nzc4LC0xOTc0OTAzMjQzLDE2MDYxMzY4NDAsLTE0ODc5
-ODA1NTMsLTQ0NDY4Nzg4MSwtMTYxOTMyNzgwNywtNTM0MzYzNT
-czLDE0ODMwOTY0NCw1OTUyMTU1NzEsNzQ5ODIwMjksNDY0NDM0
-NzMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTYwOTA5ODY5MywtNTU0MjA4MzU3LC0yMT
+AyMzgzMzQyLC0zNDg4Mjg3NzgsLTE5NzQ5MDMyNDMsMTYwNjEz
+Njg0MCwtMTQ4Nzk4MDU1MywtNDQ0Njg3ODgxLC0xNjE5MzI3OD
+A3LC01MzQzNjM1NzMsMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4
+MjAyOSw0NjQ0MzQ3MywtMjA4ODc0NjYxMl19
 -->
