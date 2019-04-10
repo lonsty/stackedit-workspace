@@ -140,6 +140,12 @@ sudo sh get-docker.sh [--mirror Aliyun]
 	docker tag <image> <dockerhub id>/<image name>
 	docker push <dockerhub id>/<image name>
 	```
+- 容器内修改时区
+	```bash
+	apt install tzdata
+	dpgk-reconfigure tzdata
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjI5NTc2MzAsMTg2NDExNzQ0M119
+eyJoaXN0b3J5IjpbMTc5MTQ0NDIxNiwtMTU2Mjk1NzYzMCwxOD
+Y0MTE3NDQzXX0=
 -->
