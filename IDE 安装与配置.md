@@ -100,7 +100,39 @@ OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
 export PATH=/opt/apache-maven-3.6.0/bin:$PATH
 ```
 ##### 设置代理
-
+```bash
+sudo vim {MAVEN_HOME}/conf/settings.xml
+```
+```xml
+<proxies>
+    <!-- proxy
+     | Specification for one proxy, to be used in connecting to the network.
+     |
+    <proxy>
+      <id>optional</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <username>proxyuser</username>
+      <password>proxypass</password>
+      <host>proxy.host.net</host>
+      <port>80</port>
+      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+    </proxy>
+    -->
+	
+	<proxy>
+      <id>optional</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <username>mkyong</username>
+      <password>password</password>
+      <host>proxy.mkyong.com</host>
+      <port>8888</port>
+      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+    </proxy>
+	
+  </proxies>
+```
 
 # visual studio code
 
@@ -176,7 +208,7 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU3MTU5MzMsMjk2OTk1OTg3LC01NT
+eyJoaXN0b3J5IjpbLTE2NTg4MTkxODEsMjk2OTk1OTg3LC01NT
 QyMDgzNTcsLTIxMDIzODMzNDIsLTM0ODgyODc3OCwtMTk3NDkw
 MzI0MywxNjA2MTM2ODQwLC0xNDg3OTgwNTUzLC00NDQ2ODc4OD
 EsLTE2MTkzMjc4MDcsLTUzNDM2MzU3MywxNDgzMDk2NDQsNTk1
