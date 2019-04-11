@@ -76,26 +76,29 @@ Detailed steps are:
 
 -   Ensure  JAVA_HOME  environment variable is set and points to your JDK installation
 -   Extract distribution archive in any directory
-    
-
+```bash
 unzip apache-maven-3.6.0-bin.zip
+```
 or
+```bash
 tar xzvf apache-maven-3.6.0-bin.tar.gz
-
+```
 Alternatively use your preferred archive extraction tool.
 
 -   Add the  bin  directory of the created directory  apache-maven-3.6.0  to the  PATH  environment variable
-    
 -   Confirm with  mvn -v  in a new shell. The result should look similar to
-    
-
+```
 Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T20:41:47+02:00)
 Maven home: /opt/apache-maven-3.6.0
 Java version: 1.8.0_45, vendor: Oracle Corporation
 Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
 Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
-
+```
+-   Adding to  PATH
+```bash
+export PATH=/opt/apache-maven-3.6.0/bin:$PATH
+```
 # visual studio code
 
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
@@ -170,7 +173,7 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTIxMTU2NywyOTY5OTU5ODcsLTU1ND
+eyJoaXN0b3J5IjpbMTcxNDkyNjM3NywyOTY5OTU5ODcsLTU1ND
 IwODM1NywtMjEwMjM4MzM0MiwtMzQ4ODI4Nzc4LC0xOTc0OTAz
 MjQzLDE2MDYxMzY4NDAsLTE0ODc5ODA1NTMsLTQ0NDY4Nzg4MS
 wtMTYxOTMyNzgwNywtNTM0MzYzNTczLDE0ODMwOTY0NCw1OTUy
