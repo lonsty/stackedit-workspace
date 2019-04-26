@@ -43,6 +43,8 @@
 ### 激活码
 [http://idea.lanyus.com/](http://idea.lanyus.com/)
 
+### 
+
 # eclipse
 
 [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
@@ -211,10 +213,10 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNDg5MTQwLDE2NDEzMzUzMDQsLTE2NT
-g4MTkxODEsMjk2OTk1OTg3LC01NTQyMDgzNTcsLTIxMDIzODMz
-NDIsLTM0ODgyODc3OCwtMTk3NDkwMzI0MywxNjA2MTM2ODQwLC
-0xNDg3OTgwNTUzLC00NDQ2ODc4ODEsLTE2MTkzMjc4MDcsLTUz
-NDM2MzU3MywxNDgzMDk2NDQsNTk1MjE1NTcxLDc0OTgyMDI5LD
-Q2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTk5NDYxODI1Myw5NDE0ODkxNDAsMTY0MT
+MzNTMwNCwtMTY1ODgxOTE4MSwyOTY5OTU5ODcsLTU1NDIwODM1
+NywtMjEwMjM4MzM0MiwtMzQ4ODI4Nzc4LC0xOTc0OTAzMjQzLD
+E2MDYxMzY4NDAsLTE0ODc5ODA1NTMsLTQ0NDY4Nzg4MSwtMTYx
+OTMyNzgwNywtNTM0MzYzNTczLDE0ODMwOTY0NCw1OTUyMTU1Nz
+EsNzQ5ODIwMjksNDY0NDM0NzMsLTIwODg3NDY2MTJdfQ==
 -->
