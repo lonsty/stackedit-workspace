@@ -43,7 +43,8 @@
 ### 激活码
 [http://idea.lanyus.com/](http://idea.lanyus.com/)
 
-### 
+### 热部署
+[https://www.cnblogs.com/jiangbei/p/8439394.html](https://www.cnblogs.com/jiangbei/p/8439394.html)
 
 # eclipse
 
@@ -213,10 +214,11 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDYxODI1Myw5NDE0ODkxNDAsMTY0MT
-MzNTMwNCwtMTY1ODgxOTE4MSwyOTY5OTU5ODcsLTU1NDIwODM1
-NywtMjEwMjM4MzM0MiwtMzQ4ODI4Nzc4LC0xOTc0OTAzMjQzLD
-E2MDYxMzY4NDAsLTE0ODc5ODA1NTMsLTQ0NDY4Nzg4MSwtMTYx
-OTMyNzgwNywtNTM0MzYzNTczLDE0ODMwOTY0NCw1OTUyMTU1Nz
-EsNzQ5ODIwMjksNDY0NDM0NzMsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTExNDg1MDg0ODUsLTk5NDYxODI1Myw5ND
+E0ODkxNDAsMTY0MTMzNTMwNCwtMTY1ODgxOTE4MSwyOTY5OTU5
+ODcsLTU1NDIwODM1NywtMjEwMjM4MzM0MiwtMzQ4ODI4Nzc4LC
+0xOTc0OTAzMjQzLDE2MDYxMzY4NDAsLTE0ODc5ODA1NTMsLTQ0
+NDY4Nzg4MSwtMTYxOTMyNzgwNywtNTM0MzYzNTczLDE0ODMwOT
+Y0NCw1OTUyMTU1NzEsNzQ5ODIwMjksNDY0NDM0NzMsLTIwODg3
+NDY2MTJdfQ==
 -->
