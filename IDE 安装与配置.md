@@ -55,8 +55,11 @@
 ### ubuntu代理设置失效问题
 `去掉socks代理设置，即可连接网络`
 
+### Install JDK 
+#####Oracle JDK(tar.gz intsall)
 [https://www.javahelps.com/2015/03/install-oracle-jdk-in-ubuntu.html](https://www.javahelps.com/2015/03/install-oracle-jdk-in-ubuntu.html)
-- Oracle JDK
+
+- Oracle JDK(APT intsall)
 ```bash
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
@@ -209,10 +212,10 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTMzNTMwNCwtMTY1ODgxOTE4MSwyOT
-Y5OTU5ODcsLTU1NDIwODM1NywtMjEwMjM4MzM0MiwtMzQ4ODI4
-Nzc4LC0xOTc0OTAzMjQzLDE2MDYxMzY4NDAsLTE0ODc5ODA1NT
-MsLTQ0NDY4Nzg4MSwtMTYxOTMyNzgwNywtNTM0MzYzNTczLDE0
-ODMwOTY0NCw1OTUyMTU1NzEsNzQ5ODIwMjksNDY0NDM0NzMsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTY4MzgyMDY4NiwxNjQxMzM1MzA0LC0xNj
+U4ODE5MTgxLDI5Njk5NTk4NywtNTU0MjA4MzU3LC0yMTAyMzgz
+MzQyLC0zNDg4Mjg3NzgsLTE5NzQ5MDMyNDMsMTYwNjEzNjg0MC
+wtMTQ4Nzk4MDU1MywtNDQ0Njg3ODgxLC0xNjE5MzI3ODA3LC01
+MzQzNjM1NzMsMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4MjAyOS
+w0NjQ0MzQ3MywtMjA4ODc0NjYxMl19
 -->
