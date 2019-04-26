@@ -2,45 +2,45 @@
 
 [https://www.jetbrains.com/idea/download/#section=linux](https://www.jetbrains.com/idea/download/#section=linux)
 
-  Linux Installation Instructions
-  ------------------------------------------------------------------------------
-  1. Unpack the IntelliJ IDEA distribution archive that you downloaded to
-     where you wish to install the program. We will refer to this destination
-     location as your {installation home} below.
+	  Linux Installation Instructions
+	  ------------------------------------------------------------------------------
+	  1. Unpack the IntelliJ IDEA distribution archive that you downloaded to
+	     where you wish to install the program. We will refer to this destination
+	     location as your {installation home} below.
 
-  2. Open a console and cd into "{installation home}/bin" and type:
+	  2. Open a console and cd into "{installation home}/bin" and type:
 
-       ./idea.sh
+	       ./idea.sh
 
-     to start the application. As a side effect, this will initialize various
-     configuration files in the ~/.IntelliJIdea2019.1 directory.
+	     to start the application. As a side effect, this will initialize various
+	     configuration files in the ~/.IntelliJIdea2019.1 directory.
 
-  3. [OPTIONAL] Add "{installation home}/bin" to your PATH environment
-     variable so that you may start IntelliJ IDEA from any directory.
+	  3. [OPTIONAL] Add "{installation home}/bin" to your PATH environment
+	     variable so that you may start IntelliJ IDEA from any directory.
 
-  4. [OPTIONAL] To adjust the value of the JVM heap size, create
-      ~/.IntelliJIdea2019.1/config/idea.vmoptions (or idea64.vmoptions
-      if using a 64-bit JDK), and set the -Xms and -Xmx parameters. To see how
-      to do this, you can reference the vmoptions file under
-      "{installation home}/bin" as a model.
+	  4. [OPTIONAL] To adjust the value of the JVM heap size, create
+	      ~/.IntelliJIdea2019.1/config/idea.vmoptions (or idea64.vmoptions
+	      if using a 64-bit JDK), and set the -Xms and -Xmx parameters. To see how
+	      to do this, you can reference the vmoptions file under
+	      "{installation home}/bin" as a model.
 
-  [OPTIONAL] Changing the location of "config" and "system" directories
-  ------------------------------------------------------------------------------
-  By default, IntelliJ IDEA stores all your settings under the ~/.IntelliJIdea2019.1/config
-  directory and uses ~/.IntelliJIdea2019.1/system as a data cache.
-  If you want to change these settings,
+	  [OPTIONAL] Changing the location of "config" and "system" directories
+	  ------------------------------------------------------------------------------
+	  By default, IntelliJ IDEA stores all your settings under the ~/.IntelliJIdea2019.1/config
+	  directory and uses ~/.IntelliJIdea2019.1/system as a data cache.
+	  If you want to change these settings,
 
-  1. Open a console and cd into ~/.IntelliJIdea2019.1/config
+	  1. Open a console and cd into ~/.IntelliJIdea2019.1/config
 
-  2. Create the file "idea.properties" and open it in an editor. Set the
-     idea.system.path and/or idea.config.path variables as desired, for
-     example:
+	  2. Create the file "idea.properties" and open it in an editor. Set the
+	     idea.system.path and/or idea.config.path variables as desired, for
+	     example:
 
-     idea.system.path=~/custom/system
-     idea.config.path=~/custom/config
+	     idea.system.path=~/custom/system
+	     idea.config.path=~/custom/config
 
-  3. Note that we recommend to store data cache ("system" directory) on a disk
-     with at least 1GB of free space.
+	  3. Note that we recommend to store data cache ("system" directory) on a disk
+	     with at least 1GB of free space.
      
 激活码
 -----------------------------------------------
@@ -76,6 +76,7 @@ sudo bash -c "echo -e '\nJAVA_HOME=\"/usr/lib/jvm/java-8-oracle\"' >> /etc/envir
 source /etc/environment
 ```
 ### 安装maven
+#### 官方安装文档
 Detailed steps are:
 
 -   Ensure  JAVA_HOME  environment variable is set and points to your JDK installation
@@ -94,7 +95,7 @@ Alternatively use your preferred archive extraction tool.
 	```bash
 	export PATH=/opt/apache-maven-3.6.0/bin:$PATH
 	```
--   Confirm with  mvn -v  in a new shell. The result should look similar to
+-   Confirm with  `mvn -v`  in a new shell. The result should look similar to
 ```
 Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T20:41:47+02:00)
 Maven home: /opt/apache-maven-3.6.0
@@ -104,7 +105,7 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
 ```
 
-##### 设置代理
+#### 设置代理
 ```bash
 sudo vim {MAVEN_HOME}/conf/settings.xml
 ```
@@ -213,10 +214,10 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMjE2NzA0LDE2NDEzMzUzMDQsLTE2NT
-g4MTkxODEsMjk2OTk1OTg3LC01NTQyMDgzNTcsLTIxMDIzODMz
-NDIsLTM0ODgyODc3OCwtMTk3NDkwMzI0MywxNjA2MTM2ODQwLC
-0xNDg3OTgwNTUzLC00NDQ2ODc4ODEsLTE2MTkzMjc4MDcsLTUz
-NDM2MzU3MywxNDgzMDk2NDQsNTk1MjE1NTcxLDc0OTgyMDI5LD
-Q2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTk2NDUxNDg5OCwxNjQxMzM1MzA0LC0xNj
+U4ODE5MTgxLDI5Njk5NTk4NywtNTU0MjA4MzU3LC0yMTAyMzgz
+MzQyLC0zNDg4Mjg3NzgsLTE5NzQ5MDMyNDMsMTYwNjEzNjg0MC
+wtMTQ4Nzk4MDU1MywtNDQ0Njg3ODgxLC0xNjE5MzI3ODA3LC01
+MzQzNjM1NzMsMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4MjAyOS
+w0NjQ0MzQ3MywtMjA4ODc0NjYxMl19
 -->
