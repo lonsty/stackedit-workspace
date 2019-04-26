@@ -56,10 +56,10 @@
 `去掉socks代理设置，即可连接网络`
 
 ### Install JDK 
-#####Oracle JDK(tar.gz intsall)
+#### Oracle JDK(tar.gz intsall)
 [https://www.javahelps.com/2015/03/install-oracle-jdk-in-ubuntu.html](https://www.javahelps.com/2015/03/install-oracle-jdk-in-ubuntu.html)
 
-- Oracle JDK(APT intsall)
+#### Oracle JDK(APT intsall)
 ```bash
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
@@ -90,6 +90,10 @@ tar xzvf apache-maven-3.6.0-bin.tar.gz
 Alternatively use your preferred archive extraction tool.
 
 -   Add the  bin  directory of the created directory  apache-maven-3.6.0  to the  PATH  environment variable
+	-   Adding to  PATH
+	```bash
+	export PATH=/opt/apache-maven-3.6.0/bin:$PATH
+	```
 -   Confirm with  mvn -v  in a new shell. The result should look similar to
 ```
 Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T20:41:47+02:00)
@@ -99,10 +103,7 @@ Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
 Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
 ```
--   Adding to  PATH
-```bash
-export PATH=/opt/apache-maven-3.6.0/bin:$PATH
-```
+
 ##### 设置代理
 ```bash
 sudo vim {MAVEN_HOME}/conf/settings.xml
@@ -212,10 +213,10 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzgyMDY4NiwxNjQxMzM1MzA0LC0xNj
-U4ODE5MTgxLDI5Njk5NTk4NywtNTU0MjA4MzU3LC0yMTAyMzgz
-MzQyLC0zNDg4Mjg3NzgsLTE5NzQ5MDMyNDMsMTYwNjEzNjg0MC
-wtMTQ4Nzk4MDU1MywtNDQ0Njg3ODgxLC0xNjE5MzI3ODA3LC01
-MzQzNjM1NzMsMTQ4MzA5NjQ0LDU5NTIxNTU3MSw3NDk4MjAyOS
-w0NjQ0MzQ3MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzcxMjE2NzA0LDE2NDEzMzUzMDQsLTE2NT
+g4MTkxODEsMjk2OTk1OTg3LC01NTQyMDgzNTcsLTIxMDIzODMz
+NDIsLTM0ODgyODc3OCwtMTk3NDkwMzI0MywxNjA2MTM2ODQwLC
+0xNDg3OTgwNTUzLC00NDQ2ODc4ODEsLTE2MTkzMjc4MDcsLTUz
+NDM2MzU3MywxNDgzMDk2NDQsNTk1MjE1NTcxLDc0OTgyMDI5LD
+Q2NDQzNDczLC0yMDg4NzQ2NjEyXX0=
 -->
