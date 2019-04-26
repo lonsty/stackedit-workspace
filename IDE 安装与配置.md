@@ -43,7 +43,9 @@
 ### 激活码
 [http://idea.lanyus.com/](http://idea.lanyus.com/)
 
-### 热部署
+### 热部署&热加载
+[https://www.cnblogs.com/jun1019/p/8074448.html](https://www.cnblogs.com/jun1019/p/8074448.html)
+
 [https://www.cnblogs.com/jiangbei/p/8439394.html](https://www.cnblogs.com/jiangbei/p/8439394.html)
 
 # eclipse
@@ -214,11 +216,11 @@ source /venv/bin/activate
 deactivate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg1MDg0ODUsLTk5NDYxODI1Myw5ND
-E0ODkxNDAsMTY0MTMzNTMwNCwtMTY1ODgxOTE4MSwyOTY5OTU5
-ODcsLTU1NDIwODM1NywtMjEwMjM4MzM0MiwtMzQ4ODI4Nzc4LC
-0xOTc0OTAzMjQzLDE2MDYxMzY4NDAsLTE0ODc5ODA1NTMsLTQ0
-NDY4Nzg4MSwtMTYxOTMyNzgwNywtNTM0MzYzNTczLDE0ODMwOT
-Y0NCw1OTUyMTU1NzEsNzQ5ODIwMjksNDY0NDM0NzMsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTQ2MTI3Njc2NCwtOTk0NjE4MjUzLDk0MT
+Q4OTE0MCwxNjQxMzM1MzA0LC0xNjU4ODE5MTgxLDI5Njk5NTk4
+NywtNTU0MjA4MzU3LC0yMTAyMzgzMzQyLC0zNDg4Mjg3NzgsLT
+E5NzQ5MDMyNDMsMTYwNjEzNjg0MCwtMTQ4Nzk4MDU1MywtNDQ0
+Njg3ODgxLC0xNjE5MzI3ODA3LC01MzQzNjM1NzMsMTQ4MzA5Nj
+Q0LDU5NTIxNTU3MSw3NDk4MjAyOSw0NjQ0MzQ3MywtMjA4ODc0
+NjYxMl19
 -->
