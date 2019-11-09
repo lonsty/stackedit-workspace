@@ -41,3 +41,7 @@ Applications for Windows
 - Telegram
 
 
+## Editor
+
+- boostnote
+- marktext
