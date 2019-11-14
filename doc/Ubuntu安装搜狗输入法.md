@@ -27,41 +27,32 @@ im-config 配置需要重启系统才能生效
 sudo shutdown -r now
 ```
 
-[下载搜狗输入法](https://links.jianshu.com/go?to=https%3A%2F%2Fpinyin.sogou.com%2Flinux%2F%3Fr%3Dpinyin)
-
+[下载搜狗输入法](http://cdn2.ime.sogou.com/dl/index/1571302197/sogoupinyin_2.3.1.0112_amd64.deb?st=xGC2le_IHhwhsXrb64ahHQ&e=1573724074&fn=sogoupinyin_2.3.1.0112_amd64.deb)
 ```shell
-wget http://cdn2.ime.sogou.com/dl/index/1524572264/sogoupinyin_2.2.0.0108_amd64.deb?st=ryCwKkvb-0zXvtBlhw5q4Q&e=1529739124&fn=sogoupinyin_2.2.0.0108_amd64.deb
-
+wget http://cdn2.ime.sogou.com/dl/index/1571302197/sogoupinyin_2.3.1.0112_amd64.deb?st=xGC2le_IHhwhsXrb64ahHQ&e=1573724074&fn=sogoupinyin_2.3.1.0112_amd64.deb
 ```
 
 安装搜狗输入法
-
 ```shell
-sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb
-
+sudo dpkg -i sogoupinyin*.deb
 ```
 
 修复损坏缺少的包
-
 ```shell
  sudo apt-get install -f
-
 ```
 
 打开 Fcitx 输入法配置
-
 ```shell
 fcitx-config-gtk3
-
 ```
 
-问题:输入法皮肤透明
+问题: 输入法皮肤透明
+```
+fcitx设置 >> 附加组件 >> 勾选高级 >> 取消经典界面
 
-```ruby
-fcitx设置 >>附加组件>>勾选高级 >>取消经典界面
-
-Configure>>  Addon  >>Advanced>>Classic
+Configure >>  Addon >> Advanced >> Classic
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc5MDQ4MTZdfQ==
+eyJoaXN0b3J5IjpbLTIwNTUzNTc1NjddfQ==
 -->
