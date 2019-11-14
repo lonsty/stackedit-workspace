@@ -78,9 +78,13 @@
 	[https://itsfoss.com/how-to-fix-system-program-problem-detected-ubuntu/](https://itsfoss.com/how-to-fix-system-program-problem-detected-ubuntu/)
 ![Ubuntu has experienced an internal error](https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/07/Ubuntu_Internal_error.png?ssl=1)
 	```
-sudo rm /var/crash/*
-```
+	sudo rm /var/crash/*
+	```
+	```
+	sudo gedit /etc/default/apport &
+	```
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDAzMDIxMSwtODQ5MDYwNSwxNjc0NT
+eyJoaXN0b3J5IjpbLTMxOTI0NTc5MywtODQ5MDYwNSwxNjc0NT
 k0NzQ0LDIwMzg0MTg5NTcsNDQyMzk3NjQzXX0=
 -->
