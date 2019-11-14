@@ -22,6 +22,16 @@ sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1
 sudo apt install gnome-tweaks
 ```
 
+## Icons
+
+### Papirus
+[https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+```
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt-get update
+sudo apt-get install papirus-icon-theme
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTc0MjY2NywxMDEzOTc0Mzc0XX0=
+eyJoaXN0b3J5IjpbLTE2MjI1NTQ1ODgsLTYzMTc0MjY2NywxMD
+EzOTc0Mzc0XX0=
 -->
