@@ -95,20 +95,21 @@
 		systemctl mask systemd-networkd-wait-online.service
 		```
 		to prevent the service from starting if requested by another service (the service is symlinked to  `/dev/null`).
-1.  开机长时间等待设定
+	- 开机长时间等待设定
+		```
+		sudo vim /etc/systemd/system/network-online.target.wants/networking.service
+		```
+				    
+		TimeoutStartSec=5min --> TimeoutStartSec=1sec
 
-1.  sudo vim /etc/systemd/system/network-online.target.wants/networking.service
-    
-2.  TimeoutStartSec=5min > TimeoutStartSec=1sec
-    
-
-3.  关机长时间等待设定  
-    
-
-1.  sudo vim /etc/systemd/system.conf
-2.  DefaultTimeoutStartSec=9s
-3.  DefaultTimeoutStopSec=9s
+- 关机长时间等待设定  
+  
+	```
+	sudo vim /etc/systemd/system.conf
+	```
+	DefaultTimeoutStartSec=9s
+	DefaultTimeoutStopSec=9s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzk0MDE3MiwtODQ5MDYwNSwxNjc0NT
+eyJoaXN0b3J5IjpbMTA5NzMyNzc2MSwtODQ5MDYwNSwxNjc0NT
 k0NzQ0LDIwMzg0MTg5NTcsNDQyMzk3NjQzXX0=
 -->
