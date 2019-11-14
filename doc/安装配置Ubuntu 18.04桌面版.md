@@ -85,18 +85,18 @@
 	```
 	修改`enabled=1`为`enabled=0`
 5. 修复开关机长时间检测问题
-	[A start job is running for wait for network to be configured. Ubuntu server](https://askubuntu.com/questions/972215/a-start-job-is-running-for-wait-for-network-to-be-configured-ubuntu-server-17-1)
-  
-	Use
-	```
-	systemctl disable systemd-networkd-wait-online.service
-	```
-	to disable the wait-online service to prevent the system from waiting on a network connection, and use
-	```
-	systemctl mask systemd-networkd-wait-online.service
-	```
-	to prevent the service from starting if requested by another service (the service is symlinked to  `/dev/null`).
+	- [A start job is running for wait for network to be configured. Ubuntu server](https://askubuntu.com/questions/972215/a-start-job-is-running-for-wait-for-network-to-be-configured-ubuntu-server-17-1)
+		Use
+		```
+		systemctl disable systemd-networkd-wait-online.service
+		```
+		to disable the wait-online service to prevent the system from waiting on a network connection, and use
+		```
+		systemctl mask systemd-networkd-wait-online.service
+		```
+		to prevent the service from starting if requested by another service (the service is symlinked to  `/dev/null`).
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAyOTA3NjcsLTg0OTA2MDUsMTY3ND
-U5NDc0NCwyMDM4NDE4OTU3LDQ0MjM5NzY0M119
+eyJoaXN0b3J5IjpbMjE0MjE1ODQzMywtODQ5MDYwNSwxNjc0NT
+k0NzQ0LDIwMzg0MTg5NTcsNDQyMzk3NjQzXX0=
 -->
