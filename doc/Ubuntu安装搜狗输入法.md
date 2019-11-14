@@ -4,7 +4,7 @@
 
 卸载ibus。
 ```shell
-sudo apt purge ibus
+sudo apt purge -y ibus
 ```
 
 卸载顶部面板任务栏上的键盘指示。
@@ -14,7 +14,7 @@ sudo  apt remove indicator-keyboard
 
 安装fcitx输入法框架
 ```shell
-sudo apt install fcitx-table-wbpy fcitx-config-gtk
+sudo apt install -y fcitx-table-wbpy fcitx-config-gtk
 ```
 
 切换为 Fcitx输入法
@@ -54,5 +54,5 @@ fcitx设置 >> 附加组件 >> 勾选高级 >> 取消经典界面
 Configure >>  Addon >> Advanced >> Classic
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNTExODgyXX0=
+eyJoaXN0b3J5IjpbLTEyMzg4NDU2OTAsODEwNTExODgyXX0=
 -->
