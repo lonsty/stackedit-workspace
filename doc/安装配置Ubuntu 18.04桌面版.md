@@ -42,6 +42,8 @@
 	```
 	sudo vi /etc/netplan/01-netcfg.yaml
 	```
+	
+	修复为：
 		```
 		network:
 		  version: 2
@@ -58,7 +60,9 @@
 		              [8.8.8.8]
 		```
 
-注意：``
+   注意：`enp4s0`是本机的网卡名称，可能会不一样
+   ``````
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NzMyMzIwLDQ0MjM5NzY0M119
+eyJoaXN0b3J5IjpbLTE3MDEwMjUzNTMsNDQyMzk3NjQzXX0=
 -->
