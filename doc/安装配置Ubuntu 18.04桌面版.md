@@ -65,9 +65,17 @@
 	```
 	sudo netplan apply
 	```
+	验证是否修改成功
+	```
+	ip addr show enp4s0
+	```
+
+2. 修复双系统时区不一致问题
+	
 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODQxODk1Nyw0NDIzOTc2NDNdfQ==
+eyJoaXN0b3J5IjpbMTA5MTEyNzkwMCwyMDM4NDE4OTU3LDQ0Mj
+M5NzY0M119
 -->
