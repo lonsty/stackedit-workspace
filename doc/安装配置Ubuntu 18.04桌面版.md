@@ -29,6 +29,10 @@
 	```
 	使用空格选择Ubuntu Desktop，选中OK回车
 	安装完成后，reboot进入桌面系统
+
+## 系统配置
+
+1. 设置静态IP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE4ODk5NTUsNDQyMzk3NjQzXX0=
+eyJoaXN0b3J5IjpbLTE2MDQ5OTk4NDAsNDQyMzk3NjQzXX0=
 -->
