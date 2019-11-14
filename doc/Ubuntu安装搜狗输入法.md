@@ -42,7 +42,7 @@ sudo dpkg -i sogoupinyin*.deb
  sudo apt install -f
 ```
 
-打开 Fcitx 输入法配置
+重启后，打开 Fcitx 输入法配置
 ```shell
 fcitx-config-gtk3
 ```
@@ -54,5 +54,6 @@ fcitx设置 >> 附加组件 >> 勾选高级 >> 取消经典界面
 Configure >>  Addon >> Advanced >> Classic
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg4NDU2OTAsODEwNTExODgyXX0=
+eyJoaXN0b3J5IjpbLTU3Nzg2NTkxNCwtMTIzODg0NTY5MCw4MT
+A1MTE4ODJdfQ==
 -->
