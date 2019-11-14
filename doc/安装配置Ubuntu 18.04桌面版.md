@@ -32,7 +32,11 @@
 
 ## 系统配置
 
+1. anz
 1. 设置静态IP
+	```
+	sfd
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ5OTk4NDAsNDQyMzk3NjQzXX0=
+eyJoaXN0b3J5IjpbLTE0OTYxNTU5Nyw0NDIzOTc2NDNdfQ==
 -->
