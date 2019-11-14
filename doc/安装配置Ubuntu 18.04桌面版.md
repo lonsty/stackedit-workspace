@@ -44,21 +44,21 @@
 	```
 	
 	修复为：
-		```
-		network:
-		  version: 2
-		  renderer: networkd
-		  ethernets:
-		    enp4s0:
-		    ^^^^^^
-		      dhcp4: no
-		      addresses:
-		        - 10.161.32.160/22
-		      gateway4: 10.161.32.1
-		      nameservers:
-		          addresses:
-		              [8.8.8.8]
-		```
+	```
+	network:
+	  version: 2
+	  renderer: networkd
+	  ethernets:
+	    enp4s0:
+	    ^^^^^^
+	      dhcp4: no
+	      addresses:
+	        - 10.161.32.160/22
+	      gateway4: 10.161.32.1
+	      nameservers:
+	          addresses:
+	              [8.8.8.8]
+	```
 
    注意：`enp4s0`是本机的网卡名称，可能会不一样
    使固定IP生效 
@@ -71,11 +71,13 @@
 	```
 
 2. 修复双系统时区不一致问题
-	
+	```
+	timedatectl set-local-rtc 1 --adjust-system-clock
+	```
 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTEyNzkwMCwyMDM4NDE4OTU3LDQ0Mj
+eyJoaXN0b3J5IjpbLTcwMzIxNTg0OSwyMDM4NDE4OTU3LDQ0Mj
 M5NzY0M119
 -->
