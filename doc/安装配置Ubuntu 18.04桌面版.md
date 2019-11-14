@@ -29,7 +29,7 @@
 	```
 	使用空格选择Ubuntu Desktop，选中OK回车
 
-	安装完成后，reboot
+	安装完成后，reboot进入桌面系统
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTUwNjc2N119
+eyJoaXN0b3J5IjpbNDQyMzk3NjQzXX0=
 -->
