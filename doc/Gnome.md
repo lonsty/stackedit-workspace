@@ -39,11 +39,13 @@ extensions:
 	sudo apt-get install papirus-icon-theme
 	```
 
-- Heading
-- 
+- Tela-icon-theme
+[https://github.com/vinceliuice/Tela-icon-theme](https://github.com/vinceliuice/Tela-icon-theme)
+
+    `./install.sh`  [OPTIONS]  [COLOR VARIANTS]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDczMjcwMCw3NjgzMjkxMjIsMTUyOT
-Q3NDM1MCwtMTYyMjU1NDU4OCwtNjMxNzQyNjY3LDEwMTM5NzQz
-NzRdfQ==
+eyJoaXN0b3J5IjpbNzc5MDYwNTc4LDc2ODMyOTEyMiwxNTI5ND
+c0MzUwLC0xNjIyNTU0NTg4LC02MzE3NDI2NjcsMTAxMzk3NDM3
+NF19
 -->
