@@ -48,6 +48,7 @@
 		  renderer: networkd
 		  ethernets:
 		    enp4s0:
+		    ^^^^^^
 		      dhcp4: no
 		      addresses:
 		        - 10.161.32.160/22
@@ -56,6 +57,8 @@
 		          addresses:
 		              [8.8.8.8]
 		```
+
+注意：``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDYyMzczNyw0NDIzOTc2NDNdfQ==
+eyJoaXN0b3J5IjpbODk4NzMyMzIwLDQ0MjM5NzY0M119
 -->
