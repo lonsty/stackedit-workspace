@@ -81,10 +81,10 @@
 	sudo rm /var/crash/*
 	```
 	```
-	sudo gedit /etc/default/apport
+	sudo vi /etc/default/apport
 	```
 	修改`enabled=1`为`enabled=0`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzU5MTc1MywtODQ5MDYwNSwxNjc0NT
-k0NzQ0LDIwMzg0MTg5NTcsNDQyMzk3NjQzXX0=
+eyJoaXN0b3J5IjpbLTEwODQyMDUzODksLTg0OTA2MDUsMTY3ND
+U5NDc0NCwyMDM4NDE4OTU3LDQ0MjM5NzY0M119
 -->
