@@ -34,14 +34,14 @@
 	sudo apt update && sudo apt upgrade
 	sudo ubuntu-drivers autoinstall
 	```
-reboot
+现在可以reboot重启进入桌面系统了。
 
 ## 系统配置
 
 1. 设置静态IP
 	```
-	sfd
+	sudo vi /etc/netplan
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAzNTY2NjMsNDQyMzk3NjQzXX0=
+eyJoaXN0b3J5IjpbMjY4MDk4Miw0NDIzOTc2NDNdfQ==
 -->
