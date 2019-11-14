@@ -33,7 +33,8 @@ sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
 sudo apt-get install papirus-icon-theme
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2MTIyMzY4LC0xNjIyNTU0NTg4LC02Mz
-E3NDI2NjcsMTAxMzk3NDM3NF19
+eyJoaXN0b3J5IjpbMTUyOTQ3NDM1MCwtMTYyMjU1NDU4OCwtNj
+MxNzQyNjY3LDEwMTM5NzQzNzRdfQ==
 -->
