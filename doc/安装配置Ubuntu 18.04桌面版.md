@@ -40,8 +40,9 @@
 
 1. 设置静态IP
 	```
-	sudo vi /etc/netplan
+	sudo vi /etc/netplan/01-netcfg.yaml
 	```
+	> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MDk4Miw0NDIzOTc2NDNdfQ==
+eyJoaXN0b3J5IjpbMTI2NjE1NTM4Myw0NDIzOTc2NDNdfQ==
 -->
