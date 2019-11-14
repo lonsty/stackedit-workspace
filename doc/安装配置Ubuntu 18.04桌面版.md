@@ -83,8 +83,8 @@
 	```
 	sudo gedit /etc/default/apport &
 	```
-	
+	修改`enabled=0`为`enabled=1`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTI0NTc5MywtODQ5MDYwNSwxNjc0NT
-k0NzQ0LDIwMzg0MTg5NTcsNDQyMzk3NjQzXX0=
+eyJoaXN0b3J5IjpbODM5NjQ0MzU1LC04NDkwNjA1LDE2NzQ1OT
+Q3NDQsMjAzODQxODk1Nyw0NDIzOTc2NDNdfQ==
 -->
