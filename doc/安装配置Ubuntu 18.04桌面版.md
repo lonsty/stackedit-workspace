@@ -17,19 +17,18 @@
 
 ## 安装Ubuntu 18.04 server
 
-1. **制作启动U盘**
-2. **切出空闲硬盘**
-3. **BIOS修改启动顺序**
-4. **重启电脑开始安装**
-5. **安装Ubuntu Desktop**
+1. 制作启动U盘
+2. 切出空闲硬盘
+3. BIOS修改启动顺序
+4. 重启电脑开始安装
+5. 安装Ubuntu Desktop
 	```
 	sudo apt update && sudo apt upgrade
 	sudo apt install tasksel
 	sudo tasksel
 	```
 	使用空格选择Ubuntu Desktop，选中OK回车
-
 	安装完成后，reboot进入桌面系统
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyMzk3NjQzXX0=
+eyJoaXN0b3J5IjpbLTE1MzE4ODk5NTUsNDQyMzk3NjQzXX0=
 -->
