@@ -63,9 +63,11 @@
    注意：`enp4s0`是本机的网卡名称，可能会不一样
    使固定IP生效 
 	```
-	sudo netplan appl
+	sudo netplan apply
 	```
+
+
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MTQyMzY0LDQ0MjM5NzY0M119
+eyJoaXN0b3J5IjpbMjAzODQxODk1Nyw0NDIzOTc2NDNdfQ==
 -->
