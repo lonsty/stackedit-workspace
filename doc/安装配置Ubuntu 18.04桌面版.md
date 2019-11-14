@@ -50,14 +50,13 @@
 	  renderer: networkd
 	  ethernets:
 	    enp4s0:
-	    ^^^^^^
 	      dhcp4: no
 	      addresses:
 	        - 10.161.32.160/22
 	      gateway4: 10.161.32.1
 	      nameservers:
-	          addresses:
-	              [8.8.8.8]
+	        addresses:
+	          [8.8.8.8]
 	```
 
    注意：`enp4s0`是本机的网卡名称，可能会不一样
@@ -74,10 +73,11 @@
 	```
 	timedatectl set-local-rtc 1 --adjust-system-clock
 	```
+3. 
 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzIxNTg0OSwyMDM4NDE4OTU3LDQ0Mj
+eyJoaXN0b3J5IjpbMTY3NDU5NDc0NCwyMDM4NDE4OTU3LDQ0Mj
 M5NzY0M119
 -->
