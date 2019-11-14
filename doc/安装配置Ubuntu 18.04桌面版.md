@@ -73,11 +73,11 @@
 	```
 	timedatectl set-local-rtc 1 --adjust-system-clock
 	```
-3. 
+3. 安装中文输入法
 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDU5NDc0NCwyMDM4NDE4OTU3LDQ0Mj
-M5NzY0M119
+eyJoaXN0b3J5IjpbLTg0OTA2MDUsMTY3NDU5NDc0NCwyMDM4ND
+E4OTU3LDQ0MjM5NzY0M119
 -->
