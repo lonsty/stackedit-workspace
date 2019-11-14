@@ -24,6 +24,11 @@ sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1
 ```
 `Alt` + `F2`, type `r` then `Enter`.
 
+extensions:
+- User Themes
+- Dash to dock
+- 
+
 ## Icons
 
 ### Papirus
@@ -35,6 +40,6 @@ sudo apt-get install papirus-icon-theme
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTQ3NDM1MCwtMTYyMjU1NDU4OCwtNj
-MxNzQyNjY3LDEwMTM5NzQzNzRdfQ==
+eyJoaXN0b3J5IjpbNzY4MzI5MTIyLDE1Mjk0NzQzNTAsLTE2Mj
+I1NTQ1ODgsLTYzMTc0MjY2NywxMDEzOTc0Mzc0XX0=
 -->
