@@ -4,12 +4,12 @@
 
 卸载ibus。
 ```shell
-sudo apt-get purge ibus
+sudo apt purge ibus
 ```
 
 卸载顶部面板任务栏上的键盘指示。
 ```shell
-sudo  apt-get remove indicator-keyboard
+sudo  apt remove indicator-keyboard
 ```
 
 安装fcitx输入法框架
@@ -39,7 +39,7 @@ sudo dpkg -i sogoupinyin*.deb
 
 修复损坏缺少的包
 ```shell
- sudo apt-get install -f
+ sudo apt install -f
 ```
 
 打开 Fcitx 输入法配置
@@ -54,5 +54,5 @@ fcitx设置 >> 附加组件 >> 勾选高级 >> 取消经典界面
 Configure >>  Addon >> Advanced >> Classic
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTUzNTc1NjddfQ==
+eyJoaXN0b3J5IjpbODEwNTExODgyXX0=
 -->
