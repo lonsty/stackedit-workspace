@@ -74,10 +74,12 @@
 	timedatectl set-local-rtc 1 --adjust-system-clock
 	```
 3. 安装中文输入法
+4. 关闭系统程序问题检测
+	![Ubuntu has experienced an internal error](https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/07/Ubuntu_Internal_error.png?ssl=1)
 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTA2MDUsMTY3NDU5NDc0NCwyMDM4ND
-E4OTU3LDQ0MjM5NzY0M119
+eyJoaXN0b3J5IjpbOTgxNzAxNjcxLC04NDkwNjA1LDE2NzQ1OT
+Q3NDQsMjAzODQxODk1Nyw0NDIzOTc2NDNdfQ==
 -->
