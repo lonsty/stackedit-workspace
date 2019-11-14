@@ -1,0 +1,33 @@
+# 安装配置Ubuntu 18.04桌面版
+
+## 目标
+
+- Windows系统基础上，再安装Ubuntu 18.04（双系统）
+- 完成Ubuntu 18.04的基础配置
+
+## 准备
+
+硬件：
+- 一个2GB以上的U盘
+- 一台运行Windows系统的电脑
+
+软件：
+- Ubuntu 18.04 server ISO 文件，[官网下载](https://ubuntu.com/download/server)
+- rufus启动U盘制作工具，[官网下载](https://rufus.ie/)
+
+## 安装Ubuntu 18.04 server
+
+1. **制作启动U盘**
+2. **切出空闲硬盘**
+3. **BIOS修改启动顺序**
+4. **重启电脑开始安装**
+5. **安装Ubuntu Desktop**
+	  ```
+	  sudo apt update && sudo apt upgrade
+	  sudo apt install tasksel
+	  sudo tasksel
+	  ```
+	  使用空格选择Ubuntu Desktop，选中OK回车
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTY3ODM3MDA2Nl19
+-->
