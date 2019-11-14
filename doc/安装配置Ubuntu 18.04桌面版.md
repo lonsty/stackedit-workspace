@@ -44,18 +44,18 @@
 	```
 		```
 		network:
-	  version: 2
-	  renderer: networkd
-	  ethernets:
-	    enp4s0:
-	      dhcp4: no
-	      addresses:
-	        - 10.161.32.160/22
-	      gateway4: 10.161.32.1
-	      nameservers:
-	          addresses:
-	              [8.8.8.8]
+		  version: 2
+		  renderer: networkd
+		  ethernets:
+		    enp4s0:
+		      dhcp4: no
+		      addresses:
+		        - 10.161.32.160/22
+		      gateway4: 10.161.32.1
+		      nameservers:
+		          addresses:
+		              [8.8.8.8]
 		```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDg4NzQyMyw0NDIzOTc2NDNdfQ==
+eyJoaXN0b3J5IjpbLTIyMDYyMzczNyw0NDIzOTc2NDNdfQ==
 -->
