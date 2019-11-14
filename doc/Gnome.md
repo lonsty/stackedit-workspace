@@ -1,5 +1,10 @@
 # GNOME Preferences
 
+tweak tool
+```
+sudo apt install gnome-tweaks
+```
+
 ## GNOME shell extensions
 
 https://extensions.gnome.org/
@@ -18,9 +23,6 @@ sudo apt-get install chrome-gnome-shell
 sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1.0
 ```
 `Alt` + `F2`, type `r` then `Enter`.
-```
-sudo apt install gnome-tweaks
-```
 
 ## Icons
 
@@ -32,6 +34,6 @@ sudo apt-get update
 sudo apt-get install papirus-icon-theme
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI1NTQ1ODgsLTYzMTc0MjY2NywxMD
-EzOTc0Mzc0XX0=
+eyJoaXN0b3J5IjpbOTk2MTIyMzY4LC0xNjIyNTU0NTg4LC02Mz
+E3NDI2NjcsMTAxMzk3NDM3NF19
 -->
