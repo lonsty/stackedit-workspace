@@ -18,6 +18,10 @@ sudo apt-get install chrome-gnome-shell
 sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1.0
 ```
 `Alt` + `F2`, type `r` then `Enter`.
+```
+sudo apt install gnome-tweaks
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzk3NDM3NF19
+eyJoaXN0b3J5IjpbLTYzMTc0MjY2NywxMDEzOTc0Mzc0XX0=
 -->
