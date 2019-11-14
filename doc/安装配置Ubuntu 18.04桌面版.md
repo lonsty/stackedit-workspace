@@ -22,12 +22,14 @@
 3. **BIOS修改启动顺序**
 4. **重启电脑开始安装**
 5. **安装Ubuntu Desktop**
-	  ```
-	  sudo apt update && sudo apt upgrade
-	  sudo apt install tasksel
-	  sudo tasksel
-	  ```
-	  使用空格选择Ubuntu Desktop，选中OK回车
+	```
+	sudo apt update && sudo apt upgrade
+	sudo apt install tasksel
+	sudo tasksel
+	```
+	使用空格选择Ubuntu Desktop，选中OK回车
+
+	安装完成后，reboot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODM3MDA2Nl19
+eyJoaXN0b3J5IjpbMTAzOTUwNjc2N119
 -->
