@@ -28,15 +28,19 @@
 	sudo tasksel
 	```
 	使用空格选择Ubuntu Desktop，选中OK回车
-	安装完成后，reboot进入桌面系统
+6. 修复可能缺失的驱动
+	某些电脑不修复显卡驱动，进不去桌面系统
+	```
+	sudo 
+	```
 
 ## 系统配置
 
-1. anz
+1. 安装可能
 1. 设置静态IP
 	```
 	sfd
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYxNTU5Nyw0NDIzOTc2NDNdfQ==
+eyJoaXN0b3J5IjpbMTI5NzgwOTA0OSw0NDIzOTc2NDNdfQ==
 -->
