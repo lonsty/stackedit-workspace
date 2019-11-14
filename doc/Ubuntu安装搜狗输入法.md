@@ -3,24 +3,13 @@
 参考：https://www.jianshu.com/p/c936a8a2180e
 
 卸载ibus。
-
-```shell
-sudo apt-get remove ibus
-
-```
-
-清除ibus配置。
-
 ```shell
 sudo apt-get purge ibus
-
 ```
 
 卸载顶部面板任务栏上的键盘指示。
-
 ```shell
 sudo  apt-get remove indicator-keyboard
-
 ```
 
 安装fcitx输入法框架
@@ -80,5 +69,5 @@ fcitx设置 >>附加组件>>勾选高级 >>取消经典界面
 Configure>>  Addon  >>Advanced>>Classic
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODEzMjUzMjVdfQ==
+eyJoaXN0b3J5IjpbLTEwOTQwMDcyNDRdfQ==
 -->
