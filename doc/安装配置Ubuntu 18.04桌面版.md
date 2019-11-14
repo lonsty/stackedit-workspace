@@ -84,7 +84,7 @@
 	sudo vi /etc/default/apport
 	```
 	修改`enabled=1`为`enabled=0`
-5. 修复开关机长时间检测问题
+5. 修复开关机长时间等待问题
 	- [A start job is running for wait for network to be configured. Ubuntu server](https://askubuntu.com/questions/972215/a-start-job-is-running-for-wait-for-network-to-be-configured-ubuntu-server-17-1)
 		Use
 		```
@@ -101,15 +101,13 @@
 		```
 				    
 		TimeoutStartSec=5min --> TimeoutStartSec=1sec
-
-- 关机长时间等待设定  
-  
-	```
-	sudo vim /etc/systemd/system.conf
-	```
-	DefaultTimeoutStartSec=9s
-	DefaultTimeoutStopSec=9s
+	- 关机长时间等待设定  
+		```
+		sudo vim /etc/systemd/system.conf
+		```
+		DefaultTimeoutStartSec=9s
+		DefaultTimeoutStopSec=9s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzMyNzc2MSwtODQ5MDYwNSwxNjc0NT
+eyJoaXN0b3J5IjpbMTY2NzIyOTkyMiwtODQ5MDYwNSwxNjc0NT
 k0NzQ0LDIwMzg0MTg5NTcsNDQyMzk3NjQzXX0=
 -->
