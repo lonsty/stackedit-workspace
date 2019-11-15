@@ -9,7 +9,7 @@
 -   若要想使开机时自启用，则需修改文件`/etc/fstab`中的swap行`echo “LABEL=SWAP-sda /xxx/swap swap swap defaults 0 0” >> /etc/fstab`
 -   删除swap`swapoff /xxx/swap ; rm -f /Application/swap`
 
-## 操作
+**创建swap**
 
 创建用于交换分区的文件
 
@@ -27,6 +27,13 @@
 
 	/mnt/swap swap swap defaults 0 0
 
+**删除swap**
+
+在`/etc/fstab`中删除
+
+	/mnt/swap swap swap defaults 0 0
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTc4OTY4XX0=
+eyJoaXN0b3J5IjpbODAzNTY0NjUxXX0=
 -->
