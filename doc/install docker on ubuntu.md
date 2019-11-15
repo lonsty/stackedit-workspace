@@ -35,6 +35,14 @@
     sub   4096R/F273FCD8 2017-02-22
     ```
 
+4. Install stable docker-ce
+	```
+	sudo add-apt-repository \
+	   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+	   $(lsb_release -cs) \
+	   stable"
+	```
+
 #### INSTALL DOCKER CE
 
 1.  Update the  `apt`  package index.
@@ -84,6 +92,6 @@
 	$ sudo service docker.io restart
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDYyMDI4NiwzNDUwODIxOTMsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbNjYwMTE4ODEzLDIwOTA2MjAyODYsMzQ1MD
+gyMTkzLDczMDk5ODExNl19
 -->
