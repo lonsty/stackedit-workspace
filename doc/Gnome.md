@@ -31,7 +31,7 @@ extensions:
 
 ## Icons
 
-Extract to `/usr/share/icons`
+Extract to `/usr/share/icons` or `$HOME/.icons` or `$HOME/.local/share/icons`
 
 - Papirus
 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
@@ -47,7 +47,7 @@ Extract to `/usr/share/icons`
     `./install.sh`  [OPTIONS]  [COLOR VARIANTS]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcyMDA5MjYsNzc5MDYwNTc4LDc2OD
-MyOTEyMiwxNTI5NDc0MzUwLC0xNjIyNTU0NTg4LC02MzE3NDI2
-NjcsMTAxMzk3NDM3NF19
+eyJoaXN0b3J5IjpbLTI1MzM4NTcyNCw3NzkwNjA1NzgsNzY4Mz
+I5MTIyLDE1Mjk0NzQzNTAsLTE2MjI1NTQ1ODgsLTYzMTc0MjY2
+NywxMDEzOTc0Mzc0XX0=
 -->
