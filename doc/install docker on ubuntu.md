@@ -15,15 +15,13 @@
         apt-transport-https \
         ca-certificates \
         curl \
-        software-properties-common
-    
+        software-properties-common   
     ```
     
 3.  Add Docker’s official GPG key:
     
     ```
-    $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-    
+    $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -   
     ```
     
     Verify that you now have the key with the fingerprint  `9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88`, by searching for the last 8 characters of the fingerprint.
@@ -37,6 +35,19 @@
     sub   4096R/F273FCD8 2017-02-22
     ```
 
+#### INSTALL DOCKER CE
+
+1.  Update the  `apt`  package index.
+    
+    ```
+    $ sudo apt-get update   
+    ```
+    
+2.  Install the latest version of Docker CE, or go to the next step to install a specific version. Any existing installation of Docker is replaced.
+    
+    ```
+    $ sudo apt-get install docker-ce
+    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzM5ODM4NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTYzOTYzMTYwNCw3MzA5OTgxMTZdfQ==
 -->
