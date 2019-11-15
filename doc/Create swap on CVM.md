@@ -33,7 +33,11 @@
 
 	/mnt/swap swap swap defaults 0 0
 
+关闭并删除分区
+
+	swapoff /mnt/swap
+	rm -f /mnt/swap
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzNTY0NjUxXX0=
+eyJoaXN0b3J5IjpbLTE3ODY3NDk1MjFdfQ==
 -->
