@@ -52,31 +52,30 @@
 #### Run Docker commands without sudo
 
 
-##### 1. Add the `docker` group if it doesn't already exist
+1. Add the `docker` group if it doesn't already exist
 
-```console
-$ sudo groupadd docker
-```
+	```console
+	$ sudo groupadd docker
+	```
 
-##### 2. Add the connected user `$USER` to the docker group
+2. Add the connected user `$USER` to the docker group
+    
+    Optionally change the username to match your preferred user.
 
-Optionally change the username to match your preferred user.
+	```console
+	$ sudo gpasswd -a $USER docker
+	```
 
-```console
-$ sudo gpasswd -a $USER docker
-```
+3. Restart the `docker` daemon
 
-##### 3. Restart the `docker` daemon
+	```console
+	$ sudo service docker restart
+	```
+   If you are on Ubuntu 14.04-15.10, use `docker.io` instead:
 
-```console
-$ sudo service docker restart
-```
-
-If you are on Ubuntu 14.04-15.10, use `docker.io` instead:
-
-```console
-$ sudo service docker.io restart
-```
+	```console
+	$ sudo service docker.io restart
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTU3ODY1Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzQ1MDgyMTkzLDczMDk5ODExNl19
 -->
