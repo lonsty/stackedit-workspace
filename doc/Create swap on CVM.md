@@ -9,15 +9,22 @@
 -   若要想使开机时自启用，则需修改文件`/etc/fstab`中的swap行`echo “LABEL=SWAP-sda /xxx/swap swap swap defaults 0 0” >> /etc/fstab`
 -   删除swap`swapoff /xxx/swap ; rm -f /Application/swap`
 
-create 2GB swap
+创建用于交换分区的文件
 
     dd if=/dev/zero of=/mnt/swap2g bs=1M count=2048
 
+d
+设置交换分区文件
 
-	mkswap /mnt/swap2g
-	swapon /mnt/swap2g
-	修改/etc/fstab文件，在文件最后添加 /mnt/swap2g swap swap defaults 0 0
+		mkswap /mnt/swap2g
+
+启用交换分区文件
+
+		swapon /mnt/swap2g
+
+
+		修改/etc/fstab文件，在文件最后添加 /mnt/swap2g swap swap defaults 0 0
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwNTE4MjVdfQ==
+eyJoaXN0b3J5IjpbLTE5ODQ3NTI5NThdfQ==
 -->
