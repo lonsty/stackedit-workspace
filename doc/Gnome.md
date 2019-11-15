@@ -46,8 +46,14 @@ Extract to `/usr/share/icons` or `$HOME/.icons` or `$HOME/.local/share/icons`
 
     `./install.sh`  [OPTIONS]  [COLOR VARIANTS]
 
+## Themes
+
+## Grub themes
+
+## Shell themes
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzM4NTcyNCw3NzkwNjA1NzgsNzY4Mz
-I5MTIyLDE1Mjk0NzQzNTAsLTE2MjI1NTQ1ODgsLTYzMTc0MjY2
-NywxMDEzOTc0Mzc0XX0=
+eyJoaXN0b3J5IjpbLTE2MzU5Mjk5MTAsLTI1MzM4NTcyNCw3Nz
+kwNjA1NzgsNzY4MzI5MTIyLDE1Mjk0NzQzNTAsLTE2MjI1NTQ1
+ODgsLTYzMTc0MjY2NywxMDEzOTc0Mzc0XX0=
 -->
