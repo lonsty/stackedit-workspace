@@ -1,4 +1,3 @@
-# Install docker-ce on Ubuntu
 
 #### SET UP THE REPOSITORY
 
@@ -36,17 +35,18 @@
     ```
 
 4. Install stable docker-ce
-	```
-	sudo add-apt-repository \
-	   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-	   $(lsb_release -cs) \
-	   stable"
-	```
+
+    ```
+    sudo add-apt-repository \
+       "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+       $(lsb_release -cs) \
+       stable"
+    ```
 
 #### INSTALL DOCKER CE
 
 1.  Update the  `apt`  package index.
-    
+
     ```
     $ sudo apt-get update
     ```
@@ -59,39 +59,38 @@
 
 3. Start docker on boot
 
-	```
-	sudo systemctl enable docker
-	sudo systemctl start docker
-	```
+    ```
+    $ sudo systemctl enable docker
+    $ sudo systemctl start docker
+    ```
 
-#### Run Docker commands without sudo
-
+#### RUN DOCKER COMMANDS WITHOUT SUDO
 
 1. Add the `docker` group if it doesn't already exist
 
-	```console
-	$ sudo groupadd docker
-	```
+    ```
+    $ sudo groupadd docker
+    ```
 
 2. Add the connected user `$USER` to the docker group
     
     Optionally change the username to match your preferred user.
 
-	```console
-	$ sudo gpasswd -a $USER docker
-	```
+    ```
+    $ sudo gpasswd -a $USER docker
+    ```
 
 3. Restart the `docker` daemon
 
-	```console
-	$ sudo service docker restart
-	```
+    ```
+    $ sudo service docker restart
+    ```
    If you are on Ubuntu 14.04-15.10, use `docker.io` instead:
 
-	```console
-	$ sudo service docker.io restart
-	```
+    ```
+    $ sudo service docker.io restart
+    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIwMjU3NzksMjA5MDYyMDI4NiwzND
-UwODIxOTMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTYyMTI5NzQyNiwtMTc3MjAyNTc3OSwyMD
+kwNjIwMjg2LDM0NTA4MjE5Myw3MzA5OTgxMTZdfQ==
 -->
