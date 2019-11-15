@@ -31,6 +31,8 @@ extensions:
 
 ## Icons
 
+
+
 - Papirus
 [https://github.com/PapirusDevelopmentTeam/papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 	```
@@ -45,7 +47,7 @@ extensions:
     `./install.sh`  [OPTIONS]  [COLOR VARIANTS]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5MDYwNTc4LDc2ODMyOTEyMiwxNTI5ND
-c0MzUwLC0xNjIyNTU0NTg4LC02MzE3NDI2NjcsMTAxMzk3NDM3
-NF19
+eyJoaXN0b3J5IjpbMTg4MDY0MDcwMiw3NzkwNjA1NzgsNzY4Mz
+I5MTIyLDE1Mjk0NzQzNTAsLTE2MjI1NTQ1ODgsLTYzMTc0MjY2
+NywxMDEzOTc0Mzc0XX0=
 -->
