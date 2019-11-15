@@ -13,20 +13,20 @@
 
 创建用于交换分区的文件
 
-    dd if=/dev/zero of=/mnt/swap bs=1M count=4096
+    $ dd if=/dev/zero of=/mnt/swap bs=1M count=4096
  
 设置交换分区文件
 
-		mkswap /mnt/swap
+	$ mkswap /mnt/swap
 
 启用交换分区文件
 
-		swapon /mnt/swap
+	$ swapon /mnt/swap
 
-若要想使开机时自启用，则需修改文件`/etc/fstab`中的swap行
+若要想使开机时自启用，则需在`/etc/fstab`中添加
 
-		修改/etc/fstab文件，在文件最后添加 /mnt/swap swap swap defaults 0 0
+	/mnt/swap swap swap defaults 0 0
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTUxMjM5Ml19
+eyJoaXN0b3J5IjpbLTkyNTc4OTY4XX0=
 -->
