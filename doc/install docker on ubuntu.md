@@ -48,6 +48,22 @@
     ```
     $ sudo apt-get install docker-ce
     ```
+
+#### Run Docker commands without sudo
+
+##### [](https://github.com/sindresorhus/guides/blob/master/docker-without-sudo.md#1-add-the-docker-group-if-it-doesnt-already-exist)1. Add the  `docker`  group if it doesn't already exist
+
+$ sudo groupadd docker
+
+##### [](https://github.com/sindresorhus/guides/blob/master/docker-without-sudo.md#2-add-the-connected-user-user-to-the-docker-group)2. Add the connected user  `$USER`  to the docker group
+
+Optionally change the username to match your preferred user.
+
+$ sudo gpasswd -a $USER docker
+
+##### [](https://github.com/sindresorhus/guides/blob/master/docker-without-sudo.md#3-restart-the-docker-daemon)3. Restart the  `docker`  daemon
+
+$ sudo service docker restart
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTYzMTYwNCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTgzMjU5NTkxLDczMDk5ODExNl19
 -->
