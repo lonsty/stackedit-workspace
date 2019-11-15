@@ -1,6 +1,5 @@
 # 云服务器创建swap
-
-[https://cloud.tencent.com/document/product/362/3597](https://cloud.tencent.com/document/product/362/3597)
+Reference: [https://cloud.tencent.com/document/product/362/3597](https://cloud.tencent.com/document/product/362/3597)
 
 -   查看系统当前的分区情况`free -m`
 -   创建用于交换分区的文件`dd if=/dev/zero of=/xxx/swap bs=4096 count=1572864`
@@ -17,27 +16,27 @@
  
 设置交换分区文件
 
-	$ mkswap /mnt/swap
+    $ mkswap /mnt/swap
 
 启用交换分区文件
 
-	$ swapon /mnt/swap
+    $ swapon /mnt/swap
 
 若要想使开机时自启用，则需在`/etc/fstab`中添加
 
-	/mnt/swap swap swap defaults 0 0
+    /mnt/swap swap swap defaults 0 0
 
 **删除swap**
 
 在`/etc/fstab`中删除
 
-	/mnt/swap swap swap defaults 0 0
+    /mnt/swap swap swap defaults 0 0
 
 关闭并删除分区
 
-	swapoff /mnt/swap
-	rm -f /mnt/swap
+    swapoff /mnt/swap
+    rm -f /mnt/swap
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY3NDk1MjFdfQ==
+eyJoaXN0b3J5IjpbMTkzODkwMTU0NiwtMTc4Njc0OTUyMV19
 -->
