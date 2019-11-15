@@ -49,6 +49,13 @@
     $ sudo apt-get install docker-ce
     ```
 
+3. Start docker on boot
+
+	```
+	sudo systemctl enable docker
+	sudo systemctl start docker
+	```
+
 #### Run Docker commands without sudo
 
 
@@ -77,5 +84,6 @@
 	$ sudo service docker.io restart
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1MDgyMTkzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjA5MDYyMDI4NiwzNDUwODIxOTMsNzMwOT
+k4MTE2XX0=
 -->
