@@ -34,7 +34,7 @@
     sub   4096R/F273FCD8 2017-02-22
     ```
 
-4. Install stable docker-ce
+4. Add apt repository
 
     ```
     sudo add-apt-repository \
@@ -91,6 +91,7 @@
     $ sudo service docker.io restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTI5NzQyNiwtMTc3MjAyNTc3OSwyMD
-kwNjIwMjg2LDM0NTA4MjE5Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbODkzMDQwMTIxLC02MjEyOTc0MjYsLTE3Nz
+IwMjU3NzksMjA5MDYyMDI4NiwzNDUwODIxOTMsNzMwOTk4MTE2
+XX0=
 -->
