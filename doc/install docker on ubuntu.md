@@ -85,13 +85,8 @@
     ```
     $ sudo service docker restart
     ```
-   If you are on Ubuntu 14.04-15.10, use `docker.io` instead:
-
-    ```
-    $ sudo service docker.io restart
-    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMDQwMTIxLC02MjEyOTc0MjYsLTE3Nz
-IwMjU3NzksMjA5MDYyMDI4NiwzNDUwODIxOTMsNzMwOTk4MTE2
-XX0=
+eyJoaXN0b3J5IjpbLTE5ODE0MDEyOTQsODkzMDQwMTIxLC02Mj
+EyOTc0MjYsLTE3NzIwMjU3NzksMjA5MDYyMDI4NiwzNDUwODIx
+OTMsNzMwOTk4MTE2XX0=
 -->
