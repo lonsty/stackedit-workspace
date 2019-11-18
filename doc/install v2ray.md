@@ -6,7 +6,7 @@
 
 	apt-get update -y && apt-get install curl -y
 
-第三部：
+第三步：
 
 	bash <(curl -s -L https://git.io/v2ray.sh)
 
@@ -30,5 +30,5 @@
 	v2ray update.sh 更新 V2Ray 管理脚本
 	v2ray uninstall 卸载 V2Ray
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODc5NTcwM119
+eyJoaXN0b3J5IjpbMjAxNTAwNTI0XX0=
 -->
