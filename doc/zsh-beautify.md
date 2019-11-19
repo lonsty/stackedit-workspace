@@ -35,8 +35,9 @@ If necessary, follow these steps to install Zsh:
 
 # Set themes and install plugins for zsh
 
-	vi ~/.zshrc
+edit  `~/.zshrc`,change theme
+
 	ZSH_THEME="agnoster"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODUyNjcxMV19
+eyJoaXN0b3J5IjpbMjQ5MzY3NDU1XX0=
 -->
