@@ -41,9 +41,13 @@ edit  `~/.zshrc`, change theme to
 
 #### Plugins
 
-- zsh-autosuggestsions
+- [zsh-autosuggestsions](https://github.com/zsh-users/zsh-autosuggestions)
 
-		git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+		git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+- [zsh-syntax-highlighting]()
+		
+		git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM4MjY1MjFdfQ==
+eyJoaXN0b3J5IjpbLTEwNDM3NTAwNjRdfQ==
 -->
