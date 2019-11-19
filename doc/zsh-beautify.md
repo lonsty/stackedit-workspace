@@ -1,6 +1,4 @@
-# (Install zsh(https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
-
-[https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH]()
+# [Install zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 
 ## Zsh?
 
@@ -13,7 +11,7 @@ Oh-My-Zsh is a framework for  [Zsh](http://www.zsh.org/), the Z shell.
     -   Please run  `echo $SHELL`  from a new terminal to confirm.
     -   Expected result:  `/usr/bin/zsh`  or similar
 
-## [](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#install-and-set-up-zsh-as-default)Install and set up zsh as default
+## Install and set up zsh as default
 
 If necessary, follow these steps to install Zsh:
 
@@ -33,6 +31,9 @@ If necessary, follow these steps to install Zsh:
 
 # Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
+	sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjE0MzAxMl19
+eyJoaXN0b3J5IjpbLTkwNzI2NTg3OV19
 -->
