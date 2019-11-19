@@ -1,4 +1,6 @@
-# I
+# (Install zsh(https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+
+[https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH]()
 
 ## Zsh?
 
@@ -28,6 +30,9 @@ If necessary, follow these steps to install Zsh:
 4.  Log out and login back again to use your new default shell.
 5.  Test that it worked with  `echo $SHELL`. Expected result:  `/bin/zsh`  or similar.
 6.  Test with  `$SHELL --version`. Expected result: 'zsh 5.1.1' or similar
+
+# Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjkzNDg4OTddfQ==
+eyJoaXN0b3J5IjpbLTYxMjE0MzAxMl19
 -->
