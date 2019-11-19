@@ -51,7 +51,12 @@ edit  `~/.zshrc`, change theme to
 
 - [autojump](https://github.com/wting/autojump)
 
+		git clone https://github.com/wting/autojump.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/autojump
+
 - [k](https://github.com/rimraf/k)
+
+		git clone https://github.com/rimraf/k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/k
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDI1Mzg2NSwtMzUxOTk5ODIwXX0=
+eyJoaXN0b3J5IjpbLTg2Mzk0NTY5MywtNTIwMjUzODY1LC0zNT
+E5OTk4MjBdfQ==
 -->
