@@ -56,7 +56,9 @@ edit  `~/.zshrc`, change theme to
 - [k](https://github.com/rimraf/k)
 
 		git clone https://github.com/rimraf/k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/k
+
+Edit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mzk0NTY5MywtNTIwMjUzODY1LC0zNT
-E5OTk4MjBdfQ==
+eyJoaXN0b3J5IjpbLTEwMjk5NzQ3NjMsLTUyMDI1Mzg2NSwtMz
+UxOTk5ODIwXX0=
 -->
