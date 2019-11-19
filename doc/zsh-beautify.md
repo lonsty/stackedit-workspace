@@ -45,9 +45,13 @@ edit  `~/.zshrc`, change theme to
 
 		git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-- [zsh-syntax-highlighting]()
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 		
 		git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+- [autojump](https://github.com/wting/autojump)
+
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDM3NTAwNjRdfQ==
+eyJoaXN0b3J5IjpbLTM1MTk5OTgyMF19
 -->
