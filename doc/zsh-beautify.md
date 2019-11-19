@@ -33,7 +33,10 @@ If necessary, follow these steps to install Zsh:
 
 	sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Set themes and install plugins for zsh
 
+	vi ~/.zshrc
+	ZSH_THEME="agnoster"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzI2NTg3OV19
+eyJoaXN0b3J5IjpbMTQ3ODUyNjcxMV19
 -->
