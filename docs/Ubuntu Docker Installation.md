@@ -84,7 +84,7 @@ gpg: no valid OpenPGP data found.
 	```
 	[Service]
 	Environment="HTTP_PROXY=http://user01:password@10.10.10.10:8080/"
-	Environment="HTTPS_PROXY=https://user01:password@10.10.10.10:8080/"
+	Environment="HTTPS_PROXY=http://user01:password@10.10.10.10:8080/"
 	Environment="NO_PROXY= hostname.example.com,172.10.10.10"
 	```
 
@@ -120,6 +120,6 @@ gpg: no valid OpenPGP data found.
     $ sudo service docker restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTYxNzc3OSwtNjM5NzYzODE5LDIwND
-I1NjAzOTMsLTE5ODE0MDEyOTRdfQ==
+eyJoaXN0b3J5IjpbMTUzNzEyOTQ4LC02Mzk3NjM4MTksMjA0Mj
+U2MDM5MywtMTk4MTQwMTI5NF19
 -->
