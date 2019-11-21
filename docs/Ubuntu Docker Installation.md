@@ -22,6 +22,14 @@
     ```
     $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
     ```
+
+	> curl: (35) error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+gpg: no valid OpenPGP data found.
+
+	Sol.
+	```
+	export https_p
+	```
     
     Verify that you now have the key with the fingerprint  `9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88`, by searching for the last 8 characters of the fingerprint.
     
@@ -86,5 +94,5 @@
     $ sudo service docker restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE0MDEyOTRdfQ==
+eyJoaXN0b3J5IjpbNDk0MTcwNzE4LC0xOTgxNDAxMjk0XX0=
 -->
