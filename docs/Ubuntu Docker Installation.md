@@ -73,8 +73,8 @@ gpg: no valid OpenPGP data found.
     ```
 
 4. Work via proxies
-5. 
-		[https://medium.com/@airman604/getting-docker-to-work-with-a-proxy-server-fadec841194e](https://medium.com/@airman604/getting-docker-to-work-with-a-proxy-server-fadec841194e)
+
+	[https://medium.com/@airman604/getting-docker-to-work-with-a-proxy-server-fadec841194e](https://medium.com/@airman604/getting-docker-to-work-with-a-proxy-server-fadec841194e)
 		
 	```
 	mkdir /etc/systemd/system/docker.service.d
@@ -120,6 +120,6 @@ gpg: no valid OpenPGP data found.
     $ sudo service docker restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjU4ODQ0MiwtNjM5NzYzODE5LDIwND
+eyJoaXN0b3J5IjpbLTYxMTYxNzc3OSwtNjM5NzYzODE5LDIwND
 I1NjAzOTMsLTE5ODE0MDEyOTRdfQ==
 -->
