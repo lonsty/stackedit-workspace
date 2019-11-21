@@ -28,7 +28,7 @@ gpg: no valid OpenPGP data found.
 
 	Sol.
 	```
-	export https_p
+	export https_proxy=http://10.57.197.116:50030
 	```
     
     Verify that you now have the key with the fingerprint  `9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88`, by searching for the last 8 characters of the fingerprint.
@@ -94,5 +94,5 @@ gpg: no valid OpenPGP data found.
     $ sudo service docker restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MTcwNzE4LC0xOTgxNDAxMjk0XX0=
+eyJoaXN0b3J5IjpbMjA0MjU2MDM5MywtMTk4MTQwMTI5NF19
 -->
