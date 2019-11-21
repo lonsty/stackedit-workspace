@@ -118,7 +118,12 @@ gpg: no valid OpenPGP data found.
     ```
     $ sudo service docker restart
     ```
+4. Log out and log in to let it work, or
+
+```
+newgrp docker
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTc0OTUxOTksMTUzNzEyOTQ4LC02Mz
-k3NjM4MTksMjA0MjU2MDM5MywtMTk4MTQwMTI5NF19
+eyJoaXN0b3J5IjpbLTIyODc2OTU0MywxNTM3MTI5NDgsLTYzOT
+c2MzgxOSwyMDQyNTYwMzkzLC0xOTgxNDAxMjk0XX0=
 -->
