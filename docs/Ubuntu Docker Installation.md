@@ -120,10 +120,10 @@ gpg: no valid OpenPGP data found.
     ```
 4. Log out and log in to let it work, or
 
-```
-newgrp docker
-```
+	```
+	newgrp docker
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODc2OTU0MywxNTM3MTI5NDgsLTYzOT
-c2MzgxOSwyMDQyNTYwMzkzLC0xOTgxNDAxMjk0XX0=
+eyJoaXN0b3J5IjpbLTYwMjYzODU1LDE1MzcxMjk0OCwtNjM5Nz
+YzODE5LDIwNDI1NjAzOTMsLTE5ODE0MDEyOTRdfQ==
 -->
