@@ -72,6 +72,14 @@ gpg: no valid OpenPGP data found.
     $ sudo systemctl start docker
     ```
 
+4. Work via proxies
+5. 
+		[https://medium.com/@airman604/getting-docker-to-work-with-a-proxy-server-fadec841194e](https://medium.com/@airman604/getting-docker-to-work-with-a-proxy-server-fadec841194e)
+		
+	```
+	
+	```
+
 #### RUN DOCKER COMMANDS WITHOUT SUDO
 
 1. Add the `docker` group if it doesn't already exist
@@ -94,5 +102,6 @@ gpg: no valid OpenPGP data found.
     $ sudo service docker restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjU2MDM5MywtMTk4MTQwMTI5NF19
+eyJoaXN0b3J5IjpbODU2MDAyNzAsMjA0MjU2MDM5MywtMTk4MT
+QwMTI5NF19
 -->
