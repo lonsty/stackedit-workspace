@@ -72,12 +72,8 @@ A workspace from [https://stackedit.io](https://stackedit.io/), where you can ed
 - [Zsh Beautify.md](docs/Zsh%20Beautify.md)
 
 
-@startuml
-Bob -> Alice : hello
-allen -> Bob : Hi
-@enduml
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI3MzE2MCwtNDA1OTg5MjE0LC0xND
+eyJoaXN0b3J5IjpbLTIzNDk0MDU1NiwtNDA1OTg5MjE0LC0xND
 cyNzAxNzEyLDExODc0MTYyMDcsLTE1ODE4OTc5NTcsLTk0NDc4
 ODIzMSwxNTI2MjQ5Njg5XX0=
 -->
