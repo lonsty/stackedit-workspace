@@ -55,6 +55,7 @@ A workspace from [https://stackedit.io](https://stackedit.io/), where you can ed
 [Ubuntu Installation Sample.md](docs/Ubuntu%20Installation%20Sample.md)
 [Ubuntu Software Installation.md](docs/Ubuntu%20Software%20Installation.md)
 [Ubuntu Sogou Pinyin Input Installation.md](docs/Ubuntu%20Sogou%20Pinyin%20Input%20Installation.md)
+[Ubuntu 必备软件.md](docs/Ubuntu%20%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6.md)
 
 ### V
 
@@ -70,13 +71,9 @@ A workspace from [https://stackedit.io](https://stackedit.io/), where you can ed
 
 [Zsh Beautify.md](docs/Zsh%20Beautify.md)
 
-### u
-
-[ubuntu 必备软件.md](docs/ubuntu%20%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6.md)
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NzkwODkyLC0xNDcyNzAxNzEyLDExOD
-c0MTYyMDcsLTE1ODE4OTc5NTcsLTk0NDc4ODIzMSwxNTI2MjQ5
-Njg5XX0=
+eyJoaXN0b3J5IjpbMTY5MjEyNDUzMiwtMTQ3MjcwMTcxMiwxMT
+g3NDE2MjA3LC0xNTgxODk3OTU3LC05NDQ3ODgyMzEsMTUyNjI0
+OTY4OV19
 -->
