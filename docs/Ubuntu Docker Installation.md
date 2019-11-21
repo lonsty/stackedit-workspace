@@ -77,7 +77,15 @@ gpg: no valid OpenPGP data found.
 		[https://medium.com/@airman604/getting-docker-to-work-with-a-proxy-server-fadec841194e](https://medium.com/@airman604/getting-docker-to-work-with-a-proxy-server-fadec841194e)
 		
 	```
-	
+	mkdir /etc/systemd/system/docker.service.d
+	vi /etc/systemd/system/docker.service.d/http-proxy.conf
+	```
+
+	```
+	[Service]
+	Environment="HTTP_PROXY=http://user01:password@10.10.10.10:8080/"
+	Environment="HTTPS_PROXY=https://user01:password@10.10.10.10:8080/"
+	Environment="NO_PROXY= hostname.example.com,172.10.10.10"
 	```
 
 #### RUN DOCKER COMMANDS WITHOUT SUDO
@@ -102,6 +110,6 @@ gpg: no valid OpenPGP data found.
     $ sudo service docker restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MDAyNzAsMjA0MjU2MDM5MywtMTk4MT
-QwMTI5NF19
+eyJoaXN0b3J5IjpbLTYzOTc2MzgxOSwyMDQyNTYwMzkzLC0xOT
+gxNDAxMjk0XX0=
 -->
