@@ -88,6 +88,16 @@ gpg: no valid OpenPGP data found.
 	Environment="NO_PROXY= hostname.example.com,172.10.10.10"
 	```
 
+	```
+	systemctl daemon-reload
+	systemctl restart docker
+	```
+
+	Varify
+	```
+	systemctl show docker --property Environment
+	```
+
 #### RUN DOCKER COMMANDS WITHOUT SUDO
 
 1. Add the `docker` group if it doesn't already exist
@@ -110,6 +120,6 @@ gpg: no valid OpenPGP data found.
     $ sudo service docker restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTc2MzgxOSwyMDQyNTYwMzkzLC0xOT
-gxNDAxMjk0XX0=
+eyJoaXN0b3J5IjpbMTM5MjU4ODQ0MiwtNjM5NzYzODE5LDIwND
+I1NjAzOTMsLTE5ODE0MDEyOTRdfQ==
 -->
