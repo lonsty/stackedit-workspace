@@ -69,7 +69,6 @@ gpg: no valid OpenPGP data found.
 
     ```
     $ sudo systemctl enable docker
-    $ sudo systemctl start docker
     ```
 
 4. Work via proxies
@@ -120,6 +119,6 @@ gpg: no valid OpenPGP data found.
     $ sudo service docker restart
     ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzEyOTQ4LC02Mzk3NjM4MTksMjA0Mj
-U2MDM5MywtMTk4MTQwMTI5NF19
+eyJoaXN0b3J5IjpbLTE2NTc0OTUxOTksMTUzNzEyOTQ4LC02Mz
+k3NjM4MTksMjA0MjU2MDM5MywtMTk4MTQwMTI5NF19
 -->
