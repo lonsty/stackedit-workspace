@@ -39,6 +39,14 @@ edit  `~/.zshrc`, change theme to
 
 	ZSH_THEME="agnoster"
 
+Log out and log in back.
+
+**NOTE:**  In all likelihood, you will need to install a  [Powerline-patched font](https://github.com/Lokaltog/powerline-fonts)  for this theme to render correctly.
+
+To test if your terminal and font support it, check that all the necessary characters are supported by copying the following command to your terminal:  `echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"`. The result should look like this:
+
+![Character Example](https://gist.githubusercontent.com/agnoster/3712874/raw/characters.png)](https://gist.githubusercontent.com/agnoster/3712874/raw/characters.png)
+
 #### Plugins
 
 - [zsh-autosuggestsions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -62,5 +70,5 @@ Edit `~/.zshrc`
 	plugins=([plugins...] zsh-autosuggestions zsh-syntax-highlighting autojump k)
 		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk5MTM2MDBdfQ==
+eyJoaXN0b3J5IjpbNjQ2OTE3MjE4LC0yMDE5OTEzNjAwXX0=
 -->
