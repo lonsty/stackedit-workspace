@@ -60,6 +60,8 @@ To test if your terminal and font support it, check that all the necessary chara
 - [autojump](https://github.com/wting/autojump)
 
 		git clone https://github.com/wting/autojump.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/autojump
+		cd ~/.oh-my-zsh/custom/plugins/autojump
+		./install.sh
 
 - [k](https://github.com/rimraf/k)
 
@@ -70,6 +72,6 @@ Edit `~/.zshrc`
 	plugins=([plugins...] zsh-autosuggestions zsh-syntax-highlighting autojump k)
 		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTU2MDQyMDMsLTIwMTk5MTM2MDBdfQ
-==
+eyJoaXN0b3J5IjpbLTEyMzYyMDg3MzUsLTE4MTU2MDQyMDMsLT
+IwMTk5MTM2MDBdfQ==
 -->
