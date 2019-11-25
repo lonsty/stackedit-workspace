@@ -45,7 +45,7 @@ Log out and log in back.
 
 To test if your terminal and font support it, check that all the necessary characters are supported by copying the following command to your terminal:  `echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"`. The result should look like this:
 
-![Character Example](https://gist.githubusercontent.com/agnoster/3712874/raw/characters.png)](https://gist.githubusercontent.com/agnoster/3712874/raw/characters.png)
+![](https://gist.githubusercontent.com/agnoster/3712874/raw/characters.png)
 
 #### Plugins
 
@@ -70,5 +70,6 @@ Edit `~/.zshrc`
 	plugins=([plugins...] zsh-autosuggestions zsh-syntax-highlighting autojump k)
 		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2OTE3MjE4LC0yMDE5OTEzNjAwXX0=
+eyJoaXN0b3J5IjpbLTE4MTU2MDQyMDMsLTIwMTk5MTM2MDBdfQ
+==
 -->
