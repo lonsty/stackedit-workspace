@@ -26,8 +26,8 @@ CREATE USER 'username'@'host' IDENTIFIED BY 'password';
 GRANT ALL privileges ON databasename.tablename TO 'username'@'host' WITH GRANT OPTION;
 ```
 
-- `host` may be `localhost` or `xxx.xxx.xxx.xxx` or `%`
+- `host` can be `localhost` or `xxx.xxx.xxx.xxx` or `%`
 - `*.*` means all databases and all tables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3OTA0MTc5XX0=
+eyJoaXN0b3J5IjpbMjA1MjAzMjE1OCw5ODc5MDQxNzldfQ==
 -->
