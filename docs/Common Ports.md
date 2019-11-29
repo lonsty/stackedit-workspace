@@ -1,0 +1,58 @@
+- 7     : 回显协议(TCP/UDP)
+- 21    : FTP文件传输协议
+- 22    : 安全外壳协议(SSH)
+- 23    : Telnet 协议
+- 25    : 简单邮件传输协议(SMTP)
+- 43    : 别名/Whois 协议(WhoIs)
+- 53    : DNS域名系统协议
+- 67    : DHCP (请求)
+- 68    : DHCP (答复)
+- 69    : 普通文件传输协议(TFTP)
+- 79    : 接头程序协议
+- 80    : 超文本传输协议(HTTP)
+- 109   : 邮局协议 v.2(POP2)
+- 110   : 邮局协议v.3（POP3)
+- 119   : 网络新闻传输协议(NNTP)
+- 123   : 网络时间协议(UDP)
+- 135   : 用于发布 Exchange 服务器以便从外部网络进行 RPC 访问的协议。
+- 137   : NetBIOS 名称服务协议
+- 138   : NetBIOS 数据报协议
+- 139   : NetBIOS 会话协议
+- 143   : 交互式的邮件访问(IMAP)
+- 161   : 简单网络管理协议(SNMP)
+- 162   : 简单网络管理协议 - 陷阱
+- 389   : 轻型目录访问协议(LDAP)
+- 443   : 安全超文本传输协议（HTTPS)
+- 445   : Microsoft CIFS
+- 465   : **特别注意：ISA/TMG中安全简单邮件传输协议(SMTPS)，在Exchange中使用的是587端口(SMTPS)**
+- 513   : 远程登录协议(Rlogin)
+- 520   : 路由信息协议(RIP)
+- 546   : DHCPv6 协议
+- 554   : 即时流协议(RTSP)
+- 563   : 安全网络新闻传输协议(NNTPS)
+- 636   : 安全轻型目录访问协议(LDAPS)
+- 993   : 安全交互式的邮件访问协议(IMAPS)
+- 995   : 安全邮局协议v.3（POP3S)
+- 1080  : 允许客户端服务器应用程序使用网络防火墙的服务的协议。(SOCKS)
+- 1433  : Microsoft SQL
+- 1494  : Citrix 智能控制台结构协议
+- 1701  : L2TP VPN
+- 1723  : PPTP VPN
+- 1755  : Microsoft 媒体流协议(MMS)
+- 1812  : 远程身份验证拨号用户服务协议(RADIUS)
+- 1813  : 远程身份验证拨号用户服务记帐协议
+- 1863  : MSN通信端口
+- 3269  : 安全轻型目录访问协议全局编录协议
+- 3389  : 远程桌面协议(终端服务RDP)
+- 3544  : Teredo 协议
+- 5060  : 会话初始协议 - 用于建立 VOIP 和 IM 会话的出站协议。(SIP)
+- 5061  : SIP over TLS - 用于建立 VOIP 和 IM 会话的加密出站协议。(SIPS)
+- 5355  : 本地链接多播名称解析
+- 8080  : HTTP 客户端(如 Internet Explorer)向出站 HTTP 代理服务器发送 HTTP 请求时使用的协议。
+- 9988  : Windows Communication Foundation 协议。(WCF)
+- 50389 : Exchange Server EdgeSync 进程使用的轻型目录访问协议
+- 50636 : Exchange Server EdgeSync 进程使用的**安全**轻型目录访问协议
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQzNzExMzk1NF19
+-->
