@@ -53,6 +53,11 @@ fcitx设置 >> 附加组件 >> 勾选高级 >> 取消经典界面
 
 Configure >>  Addon >> Advanced >> Classic
 ```
+
+MarkupSafe-1.1.1-cp35-cp35m-manylinux1_x86_64.whl \
+mysql_connector_python-8.0.17-cp35-cp35m-manylinux1_x86_64.whl \
+protobuf-3.10.0-cp35-cp35m-manylinux1_x86_64.whl \
+pymongo-3.8.0-cp35-cp35m-manylinux1_x86_64.whl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Nzg2NTkxNF19
+eyJoaXN0b3J5IjpbLTE1OTAwNTQ3NzIsLTU3Nzg2NTkxNF19
 -->
