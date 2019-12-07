@@ -1,6 +1,6 @@
 想象一下这样的情景
 
-- `Git` 提交时，你忘记把 `venv`、`dist` 、一些大文件或无关文件加入 `.gitignore`，就推上了仓库
+- Git 提交时，你忘记把 `venv`、`dist` 、一些大文件或无关文件加入 `.gitignore`，就推上了仓库
 - 团队开发时，你的好队友推上去一堆杂七杂八的文件
 
 实际上整个仓库只统计代码的话，顶多几 MB 大小，但因为各种原因，却变成了几百 MB 上 GB 的大胖子。你以为只需要在下次提交时，把那些无关的文件删除就能瘦身？
@@ -12,6 +12,7 @@ Git 仓库位于项目根目录的 `.git` 文件夹，其中保存了从仓库�
 在 Git 仓库彻底删除一个文件只有一种办法：重写（Rewrite）涉及该文件的所有提交。手动删除那不得累死，好在有工具可以使用。
 
 ## 首先找出历史提交中的所有文件
+
 ## Find large objects in git history
 
 > https://stackoverflow.com/a/42544963/11377288
@@ -49,6 +50,7 @@ git rev-list --objects --all \
 ```
 
 ## 然后剔除不想保留的文件（夹），并将整理后的仓库提交
+
 ## BFG Repo-Cleaner
 
 > [https://rtyley.github.io/bfg-repo-cleaner/](https://rtyley.github.io/bfg-repo-cleaner/)
@@ -66,7 +68,7 @@ This is a  [bare](http://git-scm.com/docs/gitglossary.html#def_bare_repository) 
 Now you can run the BFG to clean your repository up:
 
 ```
-$ java -jar [bfg.jar](https://rtyley.github.io/bfg-repo-cleaner/#download) --strip-blobs-bigger-than 100M some-big-repo.git
+$ java -jar bfg.jar --strip-blobs-bigger-than 100M some-big-repo.git
 ``` 
 
 The BFG will update your commits and all branches and tags so they are clean, but it doesn't physically delete the unwanted stuff. Examine the repo to make sure your history has been updated, and then use the standard  [`git gc`](http://git-scm.com/docs/git-gc)  command to strip out the unwanted dirty data, which Git will now recognise as surplus to requirements:
@@ -116,5 +118,5 @@ For further command-line options, you can run the BFG without any arguments, whi
 
 以上操作可以为仓库瘦身，但是因为被删除文件之后的所有 commit 都被重写了，相关的那些 tag 也会一并消失。所以最好的是在每次提交时，检查清楚哪些内容应该提交到仓库。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE5Njg1OV19
+eyJoaXN0b3J5IjpbMTYzNzg3NDMyNV19
 -->
