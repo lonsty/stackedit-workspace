@@ -34,6 +34,8 @@ Set npm via proxy
 $ npm config set proxy http://proxy.company.com:8080
 $ npm config set https-proxy http://proxy.company.com:8080
 ```
+
+*config file `~/.npmrc`*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDUzMzIzNDBdfQ==
+eyJoaXN0b3J5IjpbLTM1NzU4MTg0MV19
 -->
