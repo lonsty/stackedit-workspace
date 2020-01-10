@@ -40,7 +40,11 @@ Traceback (most recent call last):
     return __import__("MySQLdb")
 ModuleNotFoundError: No module named 'MySQLdb'
 ```
-
+Sol. 
+```
+$ sudo apt install libmysqlclient-dev
+$ pip install mysqlclient --user
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTkwNDMyOCwxNjY3MTQxMzE0XX0=
+eyJoaXN0b3J5IjpbLTE1NDgzNDQxOTUsMTY2NzE0MTMxNF19
 -->
