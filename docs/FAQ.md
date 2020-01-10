@@ -24,8 +24,23 @@ Sol.2:
 
 ### MySQL depends on Ubuntu
 
-> flask-sqlacodegen --flask "mysql://root:whsp2020@10.202.16.239:3306/whsp_dev?charset=utf8"
+```
+$ flask-sqlacodegen --flask "mysql://root:whsp2020@10.202.16.239:3306/whsp_dev?charset=utf8"
+
+Traceback (most recent call last):
+  File "/home/allen/.local/bin/flask-sqlacodegen", line 8, in <module>
+    sys.exit(main())
+  File "/home/allen/.local/lib/python3.6/site-packages/sqlacodegen/main.py", line 51, in main
+    engine = create_engine(args.url)
+  File "/home/allen/.local/lib/python3.6/site-packages/sqlalchemy/engine/__init__.py", line 479, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/home/allen/.local/lib/python3.6/site-packages/sqlalchemy/engine/strategies.py", line 87, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/home/allen/.local/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 118, in dbapi
+    return __import__("MySQLdb")
+ModuleNotFoundError: No module named 'MySQLdb'
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE5OTc2OTIsMTY2NzE0MTMxNF19
+eyJoaXN0b3J5IjpbMTc1NTkwNDMyOCwxNjY3MTQxMzE0XX0=
 -->
