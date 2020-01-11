@@ -1,13 +1,13 @@
 > [https://naysan.ca/2019/09/07/jupyter-notebook-as-a-service-on-ubuntu-18-04-with-python-3/](https://naysan.ca/2019/09/07/jupyter-notebook-as-a-service-on-ubuntu-18-04-with-python-3/)
 
-1. Create venv for jupyter
+### 1. Create venv for jupyter
 
 ```
 $ cd /mnt/data/opt/
 $ virtualenv -p python3 jupyter-venv
 ```
 
-2. Install & configurate jupyter
+#### 2. Install & configurate jupyter
 
 ```
 $ source jupyter-venv/bin/activate
@@ -25,7 +25,7 @@ c.NotebookApp.open_browser = False
 c.NotebookApp.notebook_dir = '/mnt/data/workspace/git/documents'
 ```
 
-3.  Create service file
+#### 3.  Create service file
 
 ```
 $ sudo vi /etc/systemd/system/jupyter.service
@@ -49,7 +49,7 @@ RestartSec=10
 WantedBy=multi-user.target
 ```
 
-4. Start jupyter on boot
+#### 4. Start jupyter on boot
 
 ```
 $ sudo systemctl enable jupyter.service
@@ -57,5 +57,5 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl start jupyter.service
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3MjU2Mjc3XX0=
+eyJoaXN0b3J5IjpbOTU3OTAyMjYyLDM4NzI1NjI3N119
 -->
