@@ -1,6 +1,6 @@
 > [https://naysan.ca/2019/09/07/jupyter-notebook-as-a-service-on-ubuntu-18-04-with-python-3/](https://naysan.ca/2019/09/07/jupyter-notebook-as-a-service-on-ubuntu-18-04-with-python-3/)
 
-### 1. Create venv for jupyter
+#### 1. Create venv for jupyter
 
 ```
 $ cd /mnt/data/opt/
@@ -18,6 +18,7 @@ $ jupyter notebook password
 $ vi ~/.jupyter/jupyter_notebook_config.py
 ```
 
+add following config:
 ```
 c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.port = 8888
@@ -30,7 +31,7 @@ c.NotebookApp.notebook_dir = '/mnt/data/workspace/git/documents'
 ```
 $ sudo vi /etc/systemd/system/jupyter.service
 ```
-
+add following text:
 ```
 [Unit]
 Description=Jupyter Notebook
@@ -57,5 +58,5 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl start jupyter.service
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3OTAyMjYyLDM4NzI1NjI3N119
+eyJoaXN0b3J5IjpbNzY0NzA5NzM4LDM4NzI1NjI3N119
 -->
