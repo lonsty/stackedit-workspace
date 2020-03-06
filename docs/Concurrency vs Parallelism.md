@@ -1,6 +1,8 @@
 ## Parallelism
+> Parallelism is about doing lot of things at once.
 
-Parallelism is about doing lot of things
+## Concurrency
+> Concurrency is about dealing with lot of things at once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwMzcwMDQzXX0=
+eyJoaXN0b3J5IjpbMTU5OTYxODI0OV19
 -->
