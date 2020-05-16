@@ -39,10 +39,11 @@
 
 * 进程是操作系统资源分配（内存、显卡、磁盘）的最小单位
 * CPU 看到的都是线程而非进程
+* 一个进程可以有一个或多个线程，线程之共享进程的资源，通过这样的方式
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1NTUwOTk5LC02NzQ2MjYzODMsLTIwNj
-g0MTIzNDAsLTQzNDMzNTkwLDc5NDcyNTU4NiwtMTU3NTY2MTcw
-OSwtODc1OTMzODk3LC0xMzQxMzk5ODUzLDE1OTk2MTgyNDldfQ
-==
+eyJoaXN0b3J5IjpbLTIwOTQwMzIwMDYsLTY3NDYyNjM4MywtMj
+A2ODQxMjM0MCwtNDM0MzM1OTAsNzk0NzI1NTg2LC0xNTc1NjYx
+NzA5LC04NzU5MzM4OTcsLTEzNDEzOTk4NTMsMTU5OTYxODI0OV
+19
 -->
