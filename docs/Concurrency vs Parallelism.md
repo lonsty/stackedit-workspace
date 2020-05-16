@@ -22,14 +22,14 @@
 
 ## 阻塞 Blocked
 
-
+关注的是调用者在等待调用结果时的状态。阻塞调用是指调用结果返回之前，当前线程会被挂起。
 
 ## 非阻塞 Unblocked
 
-
+关注的是调用者在等待调用结果时的状态。阻塞调用是指调用结果返回之前，当前线程会被挂起。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwMjI4MjIsLTQzNDMzNTkwLDc5NDcyNT
-U4NiwtMTU3NTY2MTcwOSwtODc1OTMzODk3LC0xMzQxMzk5ODUz
-LDE1OTk2MTgyNDldfQ==
+eyJoaXN0b3J5IjpbMTI2OTA1MTI2MiwtNDM0MzM1OTAsNzk0Nz
+I1NTg2LC0xNTc1NjYxNzA5LC04NzU5MzM4OTcsLTEzNDEzOTk4
+NTMsMTU5OTYxODI0OV19
 -->
