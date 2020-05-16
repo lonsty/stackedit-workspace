@@ -40,10 +40,10 @@
 * 进程是操作系统资源分配（内存、显卡、磁盘）的最小单位
 * CPU 看到的都是线程而非进程
 * 一个进程可以有一个或多个线程，线程之共享进程的资源，通过这样的方式，不断地调度线程可以减少进程的创建和销毁带来的代价
-* 
+* 计算密集型任务，使用核心数个进程，可以充分利用 CP
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDcxMTQyNjYsLTY3NDYyNjM4MywtMj
+eyJoaXN0b3J5IjpbLTE0NTc5NzIzNzIsLTY3NDYyNjM4MywtMj
 A2ODQxMjM0MCwtNDM0MzM1OTAsNzk0NzI1NTg2LC0xNTc1NjYx
 NzA5LC04NzU5MzM4OTcsLTEzNDEzOTk4NTMsMTU5OTYxODI0OV
 19
