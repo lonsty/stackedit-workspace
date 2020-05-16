@@ -33,7 +33,7 @@
 ### 线程
 
 * 线程是 CPU 调度分配的最小单位
-* 实际可以并行的线程数量是物理核数的两倍
+* 实际可以并行的线程数量是物理核数的两倍。但在 Python 中由于 GIL 的存在，单核多线程在同一时刻实际上
 
 ### 进程
 
@@ -43,8 +43,8 @@
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU3NTAwODYsLTY3NDYyNjM4MywtMj
-A2ODQxMjM0MCwtNDM0MzM1OTAsNzk0NzI1NTg2LC0xNTc1NjYx
-NzA5LC04NzU5MzM4OTcsLTEzNDEzOTk4NTMsMTU5OTYxODI0OV
-19
+eyJoaXN0b3J5IjpbMTAzNjI1MTUzOSwtNjc0NjI2MzgzLC0yMD
+Y4NDEyMzQwLC00MzQzMzU5MCw3OTQ3MjU1ODYsLTE1NzU2NjE3
+MDksLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNTk5NjE4MjQ5XX
+0=
 -->
