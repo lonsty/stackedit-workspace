@@ -32,10 +32,11 @@
 
 ### 线程
 
-* xia
+* 线程是 CPU 调度分配的最小单位
+* 实际可以并行的线程数量是wuliheshu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDY3MjgzMCwtNjc0NjI2MzgzLC0yMD
+eyJoaXN0b3J5IjpbLTQ5Mjg0OTAyMywtNjc0NjI2MzgzLC0yMD
 Y4NDEyMzQwLC00MzQzMzU5MCw3OTQ3MjU1ODYsLTE1NzU2NjE3
 MDksLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNTk5NjE4MjQ5XX
 0=
