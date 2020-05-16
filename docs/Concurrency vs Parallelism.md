@@ -16,11 +16,13 @@
 
 关注的是消息通信机制。异步描述的是调用 IO 操作时，不等待结果出来而立即返回，此时还没有返回结果。
 
-#### 同步阻塞she
+#### 异步阻塞式 IO
+
+#### 异步
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5OTc2MjQ1LDc5NDcyNTU4NiwtMTU3NT
-Y2MTcwOSwtODc1OTMzODk3LC0xMzQxMzk5ODUzLDE1OTk2MTgy
-NDldfQ==
+eyJoaXN0b3J5IjpbMjAwMDkyMTYwNyw3OTQ3MjU1ODYsLTE1Nz
+U2NjE3MDksLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNTk5NjE4
+MjQ5XX0=
 -->
