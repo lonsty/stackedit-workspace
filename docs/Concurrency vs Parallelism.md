@@ -28,11 +28,15 @@
 
 关注的是调用者在等待调用结果时的状态。非阻塞调用是指调用在不能立即得到结果之前，该调用不会阻塞当前线程，线程不会挂起（仍可处理其他事）。
 
-## 多进程和多线程的使用场景
+## 多线程和多进程
+
+### 线程
+
+* xia
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTE2NzQ2NTEsLTY3NDYyNjM4MywtMj
-A2ODQxMjM0MCwtNDM0MzM1OTAsNzk0NzI1NTg2LC0xNTc1NjYx
-NzA5LC04NzU5MzM4OTcsLTEzNDEzOTk4NTMsMTU5OTYxODI0OV
-19
+eyJoaXN0b3J5IjpbMTg0NDY3MjgzMCwtNjc0NjI2MzgzLC0yMD
+Y4NDEyMzQwLC00MzQzMzU5MCw3OTQ3MjU1ODYsLTE1NzU2NjE3
+MDksLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNTk5NjE4MjQ5XX
+0=
 -->
