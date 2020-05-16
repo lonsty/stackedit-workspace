@@ -33,11 +33,16 @@
 ### 线程
 
 * 线程是 CPU 调度分配的最小单位
-* 实际可以并行的线程数量是wuliheshu
+* 实际可以并行的线程数量是物理核数的两倍
+
+### 进程
+
+* 进程是操作系统资源分配（内存、显卡、磁盘）的最小单位
+* CPU 看到的都是线程而非进程
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mjg0OTAyMywtNjc0NjI2MzgzLC0yMD
-Y4NDEyMzQwLC00MzQzMzU5MCw3OTQ3MjU1ODYsLTE1NzU2NjE3
-MDksLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNTk5NjE4MjQ5XX
-0=
+eyJoaXN0b3J5IjpbNzc1NTUwOTk5LC02NzQ2MjYzODMsLTIwNj
+g0MTIzNDAsLTQzNDMzNTkwLDc5NDcyNTU4NiwtMTU3NTY2MTcw
+OSwtODc1OTMzODk3LC0xMzQxMzk5ODUzLDE1OTk2MTgyNDldfQ
+==
 -->
