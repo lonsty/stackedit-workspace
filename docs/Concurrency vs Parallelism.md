@@ -42,10 +42,10 @@
 * CPU 看到的都是线程而非进程
 * 一个进程可以有一个或多个线程，线程之共享进程的资源，通过这样的方式，不断地调度线程可以减少进程的创建和销毁带来的代价
 * 计算密集型任务，使用核心数个进程，可以充分利用 CPU 计算资源
-* 
+* 因为每个进程之间的资源是独立的（地址空间和数据空间），若要通信，则需要在操作系统cengmian
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjMyNDY4MywtNjc0NjI2MzgzLC0yMD
+eyJoaXN0b3J5IjpbMTg5MzcxMjM2MiwtNjc0NjI2MzgzLC0yMD
 Y4NDEyMzQwLC00MzQzMzU5MCw3OTQ3MjU1ODYsLTE1NzU2NjE3
 MDksLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNTk5NjE4MjQ5XX
 0=
