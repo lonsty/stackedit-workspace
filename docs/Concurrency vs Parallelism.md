@@ -18,11 +18,16 @@
 
 #### 异步阻塞式 IO
 
-#### 异步
+#### 异步非阻塞式 IO
+
+## 阻塞 Blocked
+
+## 非阻塞 Unblocked
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDkyMTYwNyw3OTQ3MjU1ODYsLTE1Nz
-U2NjE3MDksLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNTk5NjE4
-MjQ5XX0=
+eyJoaXN0b3J5IjpbLTQzNDMzNTkwLDc5NDcyNTU4NiwtMTU3NT
+Y2MTcwOSwtODc1OTMzODk3LC0xMzQxMzk5ODUzLDE1OTk2MTgy
+NDldfQ==
 -->
