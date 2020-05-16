@@ -26,10 +26,10 @@
 
 ## 非阻塞 Unblocked
 
-关注的是调用者在等待调用结果时的状态。非阻塞调用是指调用在不能立即得到结果之前，该调用。
+关注的是调用者在等待调用结果时的状态。非阻塞调用是指调用在不能立即得到结果之前，该调用不会阻塞当前线程，线程不会挂起（仍可处理其他事）。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY0NjgwODUsLTIwNjg0MTIzNDAsLT
-QzNDMzNTkwLDc5NDcyNTU4NiwtMTU3NTY2MTcwOSwtODc1OTMz
-ODk3LC0xMzQxMzk5ODUzLDE1OTk2MTgyNDldfQ==
+eyJoaXN0b3J5IjpbLTY3NDYyNjM4MywtMjA2ODQxMjM0MCwtND
+M0MzM1OTAsNzk0NzI1NTg2LC0xNTc1NjYxNzA5LC04NzU5MzM4
+OTcsLTEzNDEzOTk4NTMsMTU5OTYxODI0OV19
 -->
