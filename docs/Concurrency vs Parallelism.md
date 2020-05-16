@@ -1,7 +1,7 @@
 ## 并发 Concurrency
 > Concurrency is about dealing with lot of things at once.
 
-CPU 在一段时间内，处理完成多个任务。
+（宏观上）CPU 在一段时间内，处理了多个任务。
 
 ## 并行 Parallelism
 > Parallelism is about doing lot of things at once.
@@ -17,6 +17,6 @@ CPU 在某一个时间点，同时处理多个任务。（并行的数量取决�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNT
-k5NjE4MjQ5XX0=
+eyJoaXN0b3J5IjpbLTE1NzU2NjE3MDksLTg3NTkzMzg5NywtMT
+M0MTM5OTg1MywxNTk5NjE4MjQ5XX0=
 -->
