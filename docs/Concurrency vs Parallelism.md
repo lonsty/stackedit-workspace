@@ -35,7 +35,7 @@
 * 线程是 CPU 调度分配的最小单位
 * 实际可以并行的线程数量是物理核数的两倍。但在 Python 中由于 GIL 的存在，单核多线程在同一时刻实际上并行数为 1，即只有一个线程可以获得操作系统资源的权限。
 * IO 密集型任务，使用多个（需要远多于核心数）线程，，才能最大的提高 CPU 的使用率
-* 线程可以共享同一进程的资源，因此在创建和销毁
+* 线程可以共享同一进程的资源，因此在线程创建和销毁上开销较进程小，使用会更加轻便
 
 ### 进程
 
@@ -46,7 +46,7 @@
 * 因为每个进程之间的资源是独立的（地址空间和数据空间），若要通信，则需要在操作系统层面进行通信，如管道、队列、信号等
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjA5ODk1MywtNjc0NjI2MzgzLC0yMD
+eyJoaXN0b3J5IjpbMTU4NTgyNzMwOCwtNjc0NjI2MzgzLC0yMD
 Y4NDEyMzQwLC00MzQzMzU5MCw3OTQ3MjU1ODYsLTE1NzU2NjE3
 MDksLTg3NTkzMzg5NywtMTM0MTM5OTg1MywxNTk5NjE4MjQ5XX
 0=
