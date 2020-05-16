@@ -10,13 +10,13 @@ CPU 在某一个时间点，同时处理多个任务。（并行的数量取决�
 
 ## 同步 Synchronous
 
-
+关注的时消息通信机制。
 
 ## 异步 Asynchronous
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU2NjE3MDksLTg3NTkzMzg5NywtMT
-M0MTM5OTg1MywxNTk5NjE4MjQ5XX0=
+eyJoaXN0b3J5IjpbNzk0NzI1NTg2LC0xNTc1NjYxNzA5LC04Nz
+U5MzM4OTcsLTEzNDEzOTk4NTMsMTU5OTYxODI0OV19
 -->
