@@ -1,5 +1,7 @@
 > [https://tecadmin.net/install-postgresql-server-on-ubuntu/](https://tecadmin.net/install-postgresql-server-on-ubuntu/)
 
+# Install Postgres on Ubuntu
+
 ## Step 1 – Enable PostgreSQL Apt Repository
 
 PostgreSQL packages are also available in default Ubuntu repository. So you need to add PostgreSQL apt repository to your system suggested on official PostgreSQL  [website](https://www.postgresql.org/download/linux/ubuntu/)  using following command.
@@ -64,5 +66,5 @@ To disconnect from PostgreSQL database command prompt just type below command an
 
 Your PostgreSQL installation has been completed successfully. Let’s move to install Graphical user interface for PostgreSQL like  [pgAdmin4](https://tecadmin.net/install-pgadmin4-on-ubuntu/)  and  [phpPgAdmin](https://tecadmin.net/install-phppgadmin-in-ubuntu/)  of Ubuntu systems.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDYyMTAxMV19
+eyJoaXN0b3J5IjpbLTcyNTcxNTY1NF19
 -->
