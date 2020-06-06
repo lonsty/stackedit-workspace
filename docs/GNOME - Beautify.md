@@ -52,6 +52,8 @@ Extract to `/usr/share/icons` or `$HOME/.icons` or `$HOME/.local/share/icons`
 
 ## Shell themes
 
+## Profiles
+> [How to export a gnome-terminal profile?](https://unix.stackexchange.com/questions/448811/how-to-export-a-gnome-terminal-profile)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzU5Mjk5MTBdfQ==
+eyJoaXN0b3J5IjpbMTA5MjM2MTE5OCwtMTYzNTkyOTkxMF19
 -->
