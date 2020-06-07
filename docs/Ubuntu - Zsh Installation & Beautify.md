@@ -62,6 +62,11 @@ To test if your terminal and font support it, check that all the necessary chara
 		git clone https://github.com/wting/autojump.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/autojump
 		cd ~/.oh-my-zsh/custom/plugins/autojump
 		./install.sh
+	Add following to `~/.zshrc`
+
+		# autojump  
+		[[ -s /home/allen/.autojump/etc/profile.d/autojump.sh ]] && source /home/allen/.autojump/etc/profile.d/autojump.sh  
+		autoload -U compinit && compinit -u
 
 - [k](https://github.com/rimraf/k)
 
@@ -72,5 +77,5 @@ Edit `~/.zshrc`
 	plugins=([plugins...] zsh-autosuggestions zsh-syntax-highlighting autojump k)
 		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzYyMDg3MzVdfQ==
+eyJoaXN0b3J5IjpbMTIwMjg1MzUyNSwtMTIzNjIwODczNV19
 -->
