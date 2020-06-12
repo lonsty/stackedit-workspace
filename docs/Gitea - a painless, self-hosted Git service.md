@@ -75,9 +75,17 @@ Go to http://localhost, and complete the settings.
 
 ## Upgrade Gitea
 
-```
+❗❗  **Make sure you have volumed data to somewhere outside Docker container**  ❗❗
+
+To upgrade your installation to the latest release:
 
 ```
+# Edit docker-compose.yml to update the version, if you have one specified
+# Pull new images
+docker-compose pull
+# Start a new container, automatically removes old one
+docker-compose up -d
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzcyOTM3MCwtNjk0OTc4NTM2XX0=
+eyJoaXN0b3J5IjpbMTU2MTc5NDA2MiwtNjk0OTc4NTM2XX0=
 -->
