@@ -69,9 +69,15 @@ services:
 docker-compose up -d
 ```
 
-## Configure at the first login
+## Configure at first login
 
-Go to http://localhost, and c
+Go to http://localhost, and complete the settings.
+
+## Upgrade Gitea
+
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDgwMzQyOSwtNjk0OTc4NTM2XX0=
+eyJoaXN0b3J5IjpbMTQwMzcyOTM3MCwtNjk0OTc4NTM2XX0=
 -->
