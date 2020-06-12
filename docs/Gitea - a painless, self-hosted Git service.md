@@ -2,7 +2,7 @@
 
 ## Start with docker-compose
 
-`docker-compose.yml`
+Add following to `docker-compose.yml`.
 
 ```yml
 version: "2"
@@ -63,5 +63,5 @@ services:
       - mysql:/var/lib/mysql
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNTQ0MjAwLC02OTQ5Nzg1MzZdfQ==
+eyJoaXN0b3J5IjpbMTY2ODg5NjM3MSwtNjk0OTc4NTM2XX0=
 -->
