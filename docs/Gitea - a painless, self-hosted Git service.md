@@ -62,6 +62,12 @@ services:
     volumes:
       - mysql:/var/lib/mysql
 ```
+
+## Start up MySQL and Gitea service
+
+```sh
+docker-compose up -d
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODg5NjM3MSwtNjk0OTc4NTM2XX0=
+eyJoaXN0b3J5IjpbNzU4MDk3MjU0LC02OTQ5Nzg1MzZdfQ==
 -->
