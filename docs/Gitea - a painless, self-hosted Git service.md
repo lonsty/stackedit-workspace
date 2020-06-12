@@ -68,6 +68,10 @@ services:
 ```sh
 docker-compose up -d
 ```
+
+## Configure at the first login
+
+Go to http://localhost, and c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MDk3MjU0LC02OTQ5Nzg1MzZdfQ==
+eyJoaXN0b3J5IjpbMTY5MDgwMzQyOSwtNjk0OTc4NTM2XX0=
 -->
