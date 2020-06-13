@@ -56,12 +56,15 @@ $ sudo apt install sshpass
 ```
 # 服务器 IP 或 域名
 Host 10.157.138.120 10.202.16.239 10.202.16.240 10.202.16.241
-# 登录用户名
     User apadmin
     #Password Foxconn123
 ```
 
-- `Host`： 服务器 IP 或 域名，
+- `Host`： 服务器 IP 或 域名，相同用户名及密码的HOST可以用空格分开
+- `User`: 登录用户名，添加后使用 ssh 可省略 `USER@`
+- `#Password`: 登录密码，注意开头的 `#`，这是 ssh 不支持，额外添加的配置参数
+
+之后就可以使用 `ssh HOST`（因为添加了 `User`, `USER@` 可以省略） 愉快的登录服务器
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mjc5MzAzOF19
+eyJoaXN0b3J5IjpbNzM1NTEzODgxXX0=
 -->
