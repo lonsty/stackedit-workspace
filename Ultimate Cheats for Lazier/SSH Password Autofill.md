@@ -32,6 +32,7 @@ $ sudo apt install sshpass
 ```
 
 2. 使用脚本重新封装 `ssh` 命令
+
 在 `~/.bashrc` （或 `~/.zshrc`）文件末尾添加如下脚本：
 
 ```sh
