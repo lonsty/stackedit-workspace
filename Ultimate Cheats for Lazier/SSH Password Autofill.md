@@ -38,7 +38,7 @@ $ sudo apt install sshpass
 ```sh
 # ssh autofill password
 function ssh(){
-  sshhost=$1
+  sshhost=${1#*@}
   password=`awk "/#Password/ && inhost { print \\\$2 } /Host/ { inhost=0 } /Host.*?${sshhost}/ { inhost=1 }" ~/.ssh/config`
   if [[ -z "${password}" ]]; then
     /usr/bin/ssh $*
