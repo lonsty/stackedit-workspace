@@ -16,8 +16,7 @@
 		- [ ] webrtc-streamer service up
 		- [ ] 9 grid layout update (html + css + JavaScript)
 		- [ ] Run in docker container
-- [ ] 内网穿透
+- [ ] 内网穿透 zerotier
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQzNjg0MzYsLTE5MzgzODQwMTFdfQ
-==
+eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
 -->
