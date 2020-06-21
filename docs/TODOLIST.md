@@ -20,3 +20,10 @@
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
 -->
+
+### 2020-06-21
+
+- [ ] gitmoji proxy error
+- [ ] 反转页面除图片外的所有颜色
+- [ ] 富士康二手物品交易平台
+- [ ] YouTube下载的钢琴曲MP3标签整理
