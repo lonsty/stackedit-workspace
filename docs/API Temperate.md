@@ -35,7 +35,7 @@ TBD
 	"data": {
 		"employee_id": "G1234567",
 		"employee_name": "王五"，
-		"datetime": "2020-07-01",
+		"date": "2020-07-01",
 		"records": [
 			{	
 				"production_line": "LINE-5",
@@ -73,5 +73,5 @@ TBD
 
 根据给定时间段查询过去一段时间内的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE1NTc4MjZdfQ==
+eyJoaXN0b3J5IjpbLTE2MjYyNTU1MDNdfQ==
 -->
