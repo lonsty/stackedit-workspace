@@ -35,6 +35,7 @@ TBD
 	"data": {
 		"employee_id": "G1234567",
 		"employee_name": "王五"，
+		"datetime": "2020-07-01",
 		"records": [
 			{	
 				"production_line": "LINE-5",
@@ -67,6 +68,10 @@ TBD
 	}
 }
 ```
+
+### 2. 获取员工历史工时信息
+
+根据给定时间段查询过去一段时间内的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODc2NjM3NV19
+eyJoaXN0b3J5IjpbLTE5MjE1NTc4MjZdfQ==
 -->
