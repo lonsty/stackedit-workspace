@@ -10,12 +10,12 @@
 	- [ ] Nginx config settings
 
 - [ ] 武汉安全平台
-	- [ ] Dashboard Flask APP start (failed)
-	- [ ] Janus Gateway websocket service up, ws://10.161.32.69:8188/janus
-	- [ ] Alternative: webrtc-streamer + janus JS client
-		- [ ] webrtc-streamer service up
-		- [ ] 9 grid layout update (html + css + JavaScript)
-		- [ ] Run in docker container
+	- [x] Dashboard Flask APP start (failed)
+	- [x] Janus Gateway websocket service up, ~~ws://10.161.32.69:8188/janus~~, ws://10.202.16.240:8188/janus
+	- [x] Alternative: webrtc-streamer + janus JS client
+		- [x] webrtc-streamer service up
+		- [x] 9 grid layout update (html + css + JavaScript)
+		- [x] Run in docker container
 - [ ] 内网穿透 zerotier
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
@@ -27,3 +27,8 @@ eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
 - [ ] 反转页面除图片外的所有颜色
 - [ ] 富士康二手物品交易平台
 - [ ] YouTube下载的钢琴曲MP3标签整理
+
+### 2020-06-22
+
+- [ ] supervisor
+- [ ] plotly.py responsive charts
