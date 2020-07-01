@@ -23,12 +23,19 @@ eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
 
 ### 2020-06-21
 
-- [ ] gitmoji proxy error
+- [x] gitmoji proxy error https://gist.github.com/lonsty/26a6649d3c3ed2d61828ec5bfca41b8c
 - [ ] 反转页面除图片外的所有颜色
 - [ ] 富士康二手物品交易平台
-- [ ] YouTube下载的钢琴曲MP3标签整理
+- [ ] YouTube下载的钢琴曲 MP3 标签整理
 
 ### 2020-06-22
 
 - [ ] supervisor
 - [ ] plotly.py responsive charts
+
+### 2020-07-01
+
+- [ ] AWS 服务和软件架构
+- [ ] Confluence 发布文档
+- [ ] rap2 API 文档服务
+- [ ] swagger API 文档服务
