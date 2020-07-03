@@ -39,3 +39,7 @@ eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
 - [ ] Confluence 发布文档
 - [ ] rap2 API 文档服务
 - [ ] swagger API 文档服务
+
+### 2020-07-03
+
+- [ ] 重构 [scraper](https://github.com/lonsty/scraper) 并打包成 package
