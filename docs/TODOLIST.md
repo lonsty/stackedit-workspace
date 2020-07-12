@@ -43,3 +43,7 @@ eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
 ### 2020-07-03
 
 - [ ] 重构 [scraper](https://github.com/lonsty/scraper) 并打包成 package
+
+### 2020-07-12
+
+- [ ] FastAPI 并自动生成 swaggerUI API 文档
