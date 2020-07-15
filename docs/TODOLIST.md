@@ -47,3 +47,8 @@ eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
 ### 2020-07-12
 
 - [ ] FastAPI 并自动生成 swaggerUI API 文档
+
+
+### 2020-07-15
+
+- [] tmux terminal 分屏
