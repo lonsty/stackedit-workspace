@@ -51,4 +51,4 @@ eyJoaXN0b3J5IjpbMTExMTkxMjA5NCwtMTkzODM4NDAxMV19
 
 ### 2020-07-15
 
-- [] tmux terminal 分屏
+- [ ] tmux 终端分屏
