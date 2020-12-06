@@ -51,7 +51,7 @@ DD9AF44B 99C49590 D2DBDEE1 75860FD2
 
 ## Configurate proxies
 
-`Preferences -> Settings`:
+`Preferences` -> `Settings`:
 
 ```json
 {
